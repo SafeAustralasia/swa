@@ -20,36 +20,24 @@ get_header();
         <?php endif  ?>
 
         <!-- temporary filler content to be replaced by widget -->
-        <div class="container">
+        <div class="container" style="width: 1240px; margin:auto;">
             <div class="row home-block">
-                <div class="col-lg-6 overlay-black-300">
-                    <img src="<?php echo ASM_ASSETS_URI ?>/images/blocks/abseil.jpg" alt="">
-                </div>
-                <div class="col-lg-6">
+                <div class="col-1-of-2 home-block">
                     <div class="block-text-container">
                         <h4>Header Text</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum omnis saepe tempora natus. Explicabo, quibusdam libero. Incidunt, modi dignissimos, nihil corrupti nam inventore eligendi, quas quisquam mollitia corporis quidem reiciendis!</p>
                         <button class="btn btn-lg">Read More...</button>
                     </div>
                 </div>
-            </div>
-            <div class="row home-block">
-                <div class="col-lg-6">
-                    <div class="block-text-container">
-                        <h4>Header Text</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum omnis saepe tempora natus. Explicabo, quibusdam libero. Incidunt, modi dignissimos, nihil corrupti nam inventore eligendi, quas quisquam mollitia corporis quidem reiciendis!</p>
-                        <button class="btn btn-lg">Read More...</button>
-                    </div>
-                </div>
-                <div class="col-lg-6 overlay-black-300">
+                <div class="col-1-of-2 home-block overlay-black-300">
                     <img src="<?php echo ASM_ASSETS_URI ?>/images/blocks/mask.jpg" alt="">   
                 </div>
             </div>
             <div class="row home-block">
-                <div class="col-lg-6 overlay-black-300">
+                <div class="col-1-of-2 home-block overlay-black-300">
                     <img src="<?php echo ASM_ASSETS_URI ?>/images/blocks/abseil.jpg" alt="">
                 </div>
-                <div class="col-lg-6">
+                <div class="col-1-of-2 home-block">
                     <div class="block-text-container">
                         <h4>Header Text</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum omnis saepe tempora natus. Explicabo, quibusdam libero. Incidunt, modi dignissimos, nihil corrupti nam inventore eligendi, quas quisquam mollitia corporis quidem reiciendis!</p>

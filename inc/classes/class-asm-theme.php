@@ -45,11 +45,6 @@ class ASM_THEME {
 			'flex-height' => true,
 			'flex-width' => true
 		] );
-
-		// add_theme_support( 'custom-background', [
-		// 	'default-color' => '#f0f0f0',
-		// 	'default-image' => ''
-		// ] );
 		
 		add_theme_support( 'post-thumbnails' );
 		
