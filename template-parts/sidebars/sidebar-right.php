@@ -5,6 +5,6 @@
  * @package ASM
  */
 ?>
-<aside id="secondary" role="complementary">xx
+<aside id="secondary" role="complementary">
     <?php dynamic_sidebar('sidebar-1') ?>
 </aside>

@@ -7,8 +7,10 @@
 
 get_header();
 ?>
+<div class="container page-main">
+    <div class="row">        
+        <?php the_content() ?>
+    </div>
+</div> <!-- end container -->
 <?php
-get_template_part('template-parts/content');
-get_template_part('template-parts/sidebars/sidebar','right');
-
 get_footer();

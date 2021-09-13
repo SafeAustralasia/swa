@@ -23,6 +23,7 @@ class Sidebars  {
 		 * Actions.
 		 */
         add_action( 'widgets_init', [ $this, 'register_sidebars'] );
+        add_action( 'widgets_init', [ $this, 'register_clock_widget'] );
 
 	}
     
@@ -30,7 +31,7 @@ class Sidebars  {
 
         register_sidebar( array(
             'name'          => __( 'Sidebar Home', 'asm' ),
-            'id'            => 'sidebar-1',
+            'id'            => 'sidebar-home',
             'description'   => __( 'Home sidebar', 'asm'),
             'before_widget' => '<div id="%1$s" class="widget widget-sidebar %2$s">',
             'after_widget'  => '</div>',
@@ -40,7 +41,7 @@ class Sidebars  {
 
         register_sidebar( array(
             'name'          => __( 'Sidebar Right', 'asm' ),
-            'id'            => 'sidebar-2',
+            'id'            => 'sidebar-1',
             'description'   => __( 'Right sidebar', 'asm'),
             'before_widget' => '<div id="%1$s" class="widget widget-sidebar %2$s">',
             'after_widget'  => '</div>',
@@ -57,16 +58,10 @@ class Sidebars  {
             'before_title'  => '<h3 class="widget-title">',
             'after_title'   => '</h3>',
         ) );
-     
-        // register_sidebar( array(
-        //     'name'          => __( 'Secondary Sidebar', 'theme_name' ),
-        //     'id'            => 'sidebar-2',
-        //     'before_widget' => '<ul><li id="%1$s" class="widget %2$s">',
-        //     'after_widget'  => '</li></ul>',
-        //     'before_title'  => '<h3 class="widget-title">',
-        //     'after_title'   => '</h3>',
-        // ) );        
+    }
 
+    public function register_clock_widget() {
+        register_widget( 'ASM_THEME\Inc\Clock_Widget' );
     }
 
 }

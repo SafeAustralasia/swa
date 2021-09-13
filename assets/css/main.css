@@ -414,10 +414,6 @@ a:hover {
   color: #474747;
 }
 
-.container, img, h1, p {
-  transition: 0.5s all ease;
-}
-
 .bd {
   border: 2px solid #000;
 }
@@ -610,6 +606,14 @@ footer a:hover {
 .main-nav .navbar-collapse .nav-item .dropdown-menu a {
   color: #c2c2c2;
   font-weight: normal;
+}
+
+.container {
+  transition: 0.5s all ease;
+}
+
+.page-main {
+  margin-top: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
