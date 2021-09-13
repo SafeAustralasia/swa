@@ -1,13 +1,12 @@
 {
-  "name": "safework",
+  "name": "low-carb-lifestyle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "sass --watch assets/scss/main.scss assets/css/main.css"
   },
-  "author": "",
+  "author": "Steve Mather",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.5",

@@ -70,4 +70,11 @@ class Menus {
 		return $child_menu;
 	}
 
+	public function is_active_page ( $current_page_id ) {
+		
+		$is_current_page;
+
+		return $is_current_page;
+	}
+
 }
