@@ -8,13 +8,13 @@
     font-weight: bold;
     font-size: 0.9em;
     border-radius: 0;
+    &:hover {
+        color: #fff;
+        background-color: $color-secondary-600;
+    }
 }
 
 .btn-lg {
-    padding: .5em 1.2em;
+    padding: .8em 1.5em;
     border: 1px solid $color-secondary;
-    &:hover {
-        text-decoration: underline;
-        color: #fff;
-    }
 }

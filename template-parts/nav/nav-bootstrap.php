@@ -66,7 +66,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
         endforeach; 
         ?>
       </ul>
-      <button class="btn btn-lg">Donate</button>
+      <!-- <button class="btn btn-lg">Donate</button> -->
     <?php 
     endif 
     ?>

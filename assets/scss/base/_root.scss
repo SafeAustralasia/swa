@@ -5,7 +5,7 @@ body,
 header,
 footer,
 p {
-    color: $color-grey-700;
+    color: $color-font;
     font-family: Montserrat;
 }
 header {
@@ -23,4 +23,7 @@ a {
     &:hover {
         color: $color-grey-700;
     }
+}
+.container,img,h1,p {
+    transition: .5s all ease;
 }

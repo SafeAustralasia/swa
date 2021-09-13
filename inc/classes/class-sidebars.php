@@ -25,7 +25,7 @@ class Sidebars  {
         add_action( 'widgets_init', [ $this, 'register_sidebars'] );
 
 	}
-
+    
     public function register_sidebars() {
 
         register_sidebar( array(
