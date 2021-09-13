@@ -12,7 +12,7 @@ use ASM_THEME\Inc\Traits\Singleton;
 use WP_Widget;
 
 class Clock_Widget extends WP_Widget {
- 
+    use Singleton;
     /**
      * Register widget with WordPress.
      */
@@ -42,7 +42,20 @@ class Clock_Widget extends WP_Widget {
         }
         echo $after_widget;
     }
- 
+
+    	/**
+	 * Set defaults on an instance object
+	 * 
+	 * @param object $instance The instance object to scan/modify
+	 */
+	public function instanceDefaults($instance) {
+        $instance['title'] = !empty( $instance['title'] ) ? $instance['title'] : 'Title';
+		$instance['details'] = !empty( $instance['details'] ) ? $instance['details'] : 'Details...';		
+		// $instance['linktext'] = !empty( $instance['linktext'] ) ? $instance['linktext'] : 'Read more';
+		// $instance['linkuri'] = !empty( $instance['linkuri'] ) ? $instance['linkuri'] : '/';
+		// $instance['imageuri'] = !empty( $instance['imageuri'] ) ? $instance['imageuri'] : get_template_directory_uri() . "/img/" . "placeholder.svg";
+		return $instance;
+	}
     /**
      * Back-end widget form.
      *
@@ -57,12 +70,8 @@ class Clock_Widget extends WP_Widget {
         else {
             $title = __( 'New clock', 'asm' );
         }
-        ?>
-        <p>
-            <label for="<?php echo $this->get_field_name( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
-         </p>
-    <?php
+        $instance = $this->instanceDefaults($instance);
+		include('widget-html/clock/clock-form.php');
     }
  
     /**
