@@ -616,4 +616,16 @@ footer a:hover {
   margin-top: 2em;
 }
 
+.home-text-block-container img {
+  width: 100%;
+}
+.home-text-block-container:nth-child(even) {
+  background-color: #d5dbdc;
+}
+@media (min-width: 768px) {
+  .home-text-block-container:nth-child(even) .row {
+    flex-direction: row-reverse;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

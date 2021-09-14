@@ -51,7 +51,7 @@ class Clock_Widget extends WP_Widget {
 	public function instanceDefaults($instance) {
         $instance['title'] = !empty( $instance['title'] ) ? $instance['title'] : 'Title';
 		$instance['details'] = !empty( $instance['details'] ) ? $instance['details'] : 'Details...';		
-		// $instance['linktext'] = !empty( $instance['linktext'] ) ? $instance['linktext'] : 'Read more';
+		$instance['linktext'] = !empty( $instance['linktext'] ) ? $instance['linktext'] : 'Read more';
 		// $instance['linkuri'] = !empty( $instance['linkuri'] ) ? $instance['linkuri'] : '/';
 		// $instance['imageuri'] = !empty( $instance['imageuri'] ) ? $instance['imageuri'] : get_template_directory_uri() . "/img/" . "placeholder.svg";
 		return $instance;

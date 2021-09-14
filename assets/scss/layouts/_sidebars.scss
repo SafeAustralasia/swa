@@ -1,6 +1,16 @@
 @use '../abstracts/' as *;
 
-aside {
+.home-text-block-container {
+    img {
+        width: 100%;
+    }
+    &:nth-child(even) {
+        background-color: $color-primary-100;
 
-    
+        @include respond-above(sm) {
+            .row {
+                flex-direction: row-reverse;
+            }
+        }
+    }    
 }

@@ -17,7 +17,7 @@ class ASM_THEME {
 		// Load class.
 		Assets::get_instance();
 		Menus::get_instance();
-		// Meta_Boxes::get_instance();
+		Meta_Boxes::get_instance();
 		Sidebars::get_instance();
 		// Blocks::get_instance();
 		// Block_Patterns::get_instance();
