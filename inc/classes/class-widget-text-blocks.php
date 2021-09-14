@@ -19,11 +19,13 @@ class Widget_Text_Blocks extends WP_Widget {
      * Register widget with WordPress.
      */
     public function __construct() {
+
         parent::__construct(
             'text_block_widget', // Base ID
             esc_html__( 'Home Text Block', 'home_text_block' ), // Name
             [ 'description' => esc_html__( 'A block for the home page that displays a single block of information', 'asm' ), ] // Args
         );
+        $this->widget_html = 'widget-html/text-blocks/text-block-';
     }
 
 	/**
@@ -37,7 +39,7 @@ class Widget_Text_Blocks extends WP_Widget {
 	public function widget( $args, $instance ) {
 		$instance = $this->instanceDefaults($instance);
 		$bgimg = $instance['imageuri'];
-		include('widget-html/text-blocks/text-block-view.php');
+		include( $this->widget_html . 'view.php');
 	}
 
 	/**
@@ -63,7 +65,7 @@ class Widget_Text_Blocks extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$instance = $this->instanceDefaults($instance);
-		include('widget-html/text-blocks/text-block-form.php');
+		include( $this->widget_html . 'form.php');
 	}
  
 	/**

@@ -3,7 +3,7 @@
         <div class="col-lg-6">
             <img src="<?php echo $instance['imageuri'] ?>" alt="">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-block">
             <h1><?php echo $instance['title']; ?></h1>
             <p><?php echo nl2br($instance['details']); ?></p>
             <p><a href="<?php echo $instance['linkuri']; ?>" class="btn btn-secondary"><?php echo $instance['linktext']; ?></a></p>
