@@ -353,13 +353,13 @@ template {
 */
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular") format("truetype");
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Bold") format("truetype");
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 .overlay-black-200 {
@@ -404,7 +404,7 @@ header,
 footer,
 p {
   color: #1A2223;
-  font-family: Montserrat;
+  font-family: "Montserrat", "sans-serif";
 }
 
 a {
