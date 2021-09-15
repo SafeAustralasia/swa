@@ -7,10 +7,12 @@
 
 get_header();
 ?>
-<div class="container page-main">
-    <div class="row">        
-        <?php the_content() ?>
+<main id="main" class="page-main" role="main">
+  <div class="container">
+    <div class="row">
+      <?php the_content() ?>
     </div>
-</div> <!-- end container -->
+  </div> <!-- end container -->
+</main>
 <?php
 get_footer();

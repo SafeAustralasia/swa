@@ -353,13 +353,13 @@ template {
 */
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 .overlay-black-200 {
@@ -613,7 +613,7 @@ footer a:hover {
 }
 
 .page-main {
-  margin-top: 2em;
+  margin: 2em auto;
 }
 
 .home-text-block-container {
