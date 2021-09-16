@@ -465,6 +465,15 @@ a:hover {
   border: 1px solid #6C5D4E;
 }
 
+.widget-text-block {
+  height: 25em;
+}
+@media (min-width: 992px) {
+  .widget-text-block {
+    height: inherit;
+  }
+}
+
 header {
   /* home page hero */
 }

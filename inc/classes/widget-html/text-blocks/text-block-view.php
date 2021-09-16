@@ -1,7 +1,7 @@
 <div class="container home-text-block-container" id="text-block-<?php echo $this->id ?>">
   <div class="row">
-    <div class="col-lg-6"
-      style="background-image: url(<?php echo $instance['imageuri'] ?>); height: 25em; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="col-lg-6 widget-text-block"
+      style="background-image: url(<?php echo $instance['imageuri'] ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
 
     </div>
     <div class="col-lg-6 text-block">
