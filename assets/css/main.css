@@ -640,4 +640,21 @@ footer a:hover {
   }
 }
 
+.blog-excerpt-container .row {
+  padding-left: 0;
+  margin-left: 0;
+}
+.blog-excerpt-container .row:nth-child(odd) {
+  background-color: #d3ceca;
+}
+.blog-excerpt-container .row:nth-child(even) {
+  background-color: #bfcaca;
+}
+.blog-excerpt-container .row [class^=col-] {
+  padding-left: 0;
+}
+.blog-excerpt-container .row [class^=col-]:nth-child(even) {
+  padding: 1em;
+}
+
 /*# sourceMappingURL=main.css.map */
