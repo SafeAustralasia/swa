@@ -1,9 +1,19 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+// Call slick slider
+(function($) {
+  class SlickSlider {
+
+      constructor() {
+          this.initiateSlider();
+      }
+      
+      // slick slider settings
+      initiateSlider() {
+          $('.front-page-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 2000
+          });
+      }
   }
-}
+
+  new SlickSlider();
+})(jQuery)
