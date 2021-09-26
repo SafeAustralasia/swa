@@ -6,27 +6,28 @@
  */
 
 $menu_class = \ASM_THEME\Inc\Menus::get_instance();
-$top_bar_menu_id = $menu_class->get_menu_id( 'asm-top-bar-menu' );
 
-$top_bar_menus = wp_get_nav_menu_items( $top_bar_menu_id );
+// get the top bar menu id
+$top_bar_menu_id = $menu_class->get_menu_id( 'asm-top-bar-menu' );
+// get the top menu items
+$top_bar_menu_items = wp_get_nav_menu_items( $top_bar_menu_id );
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark top-nav">
-  <?php get_template_part('template-parts/icons/social-media','blue'); ?>    
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse justify-content-lg-end" id="navbarSupportedContent">
     <?php 
-    if( ! empty( $top_bar_menus ) && is_array( $top_bar_menus ) ) : 
+    if( ! empty( $top_bar_menu_items ) && is_array( $top_bar_menu_items ) ) : 
     ?>
       <ul class="navbar-nav">
         <?php 
-        foreach( $top_bar_menus as $menu_item ) : 
+        foreach( $top_bar_menu_items as $menu_item ) : 
 
           if( ! $menu_item->menu_item_parent ) : 
             // get child menu items if applicable
-            $child_menu_items = $menu_class->get_child_menu_items( $top_bar_menus, $menu_item->ID );
+            $child_menu_items = $menu_class->get_child_menu_items( $top_bar_menu_items, $menu_item->ID );
             // set boolean menu item has children
             $has_children = ! empty( $child_menu_items ) && is_array( $child_menu_items );
 
@@ -68,4 +69,5 @@ $top_bar_menus = wp_get_nav_menu_items( $top_bar_menu_id );
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> -->
   </div>
+  <?php get_template_part('template-parts/icons/social-media','blue'); ?>    
 </nav>

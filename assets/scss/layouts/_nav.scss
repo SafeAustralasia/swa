@@ -1,3 +1,55 @@
-nav {
-  display: flex;
+@use '../abstracts/' as *;
+
+.top-nav {
+  background-color: $color-primary;
+  .social-media-icons {
+    padding-right: 2em;
+    a {
+      padding-right:.2em;
+    }
+  }
+}
+
+.main-nav {
+    padding: 0.5em 3.5em 0.5em 2em;
+    background-color: #fff;
+    // .navbar-toggler {
+    //     background-color: #fff;
+    // }
+    .navbar-collapse {
+        .nav-item {
+            padding-right: 2em;
+            a {
+                color: $color-primary;
+                font-weight: normal;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            a:hover {
+              color: $color-primary-500;
+            }
+            .dropdown-menu {
+                background-color: $color-grey-600;
+                padding: 0;
+                border: 1px solid $color-grey-200;
+                .dropdown-item {
+                    background-color: transparent;
+                    padding: 0.6em;
+                }
+                .dropdown-item:hover {
+                    background-color: #ccc;
+                    padding: 0.6em;
+                    color: $color-grey-700;
+                }
+
+                a {
+                    color: $color-grey-200;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    //border-top: 1px solid $color-secondary;
+    //border-bottom: 1px solid $color-secondary;
 }

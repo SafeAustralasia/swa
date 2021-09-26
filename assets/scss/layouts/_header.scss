@@ -41,6 +41,11 @@ header {
         padding: 1.5em 0;
     }
 
+    .header-stripe {
+        background-color: $color-secondary;
+        height: .2em;
+    }
+
     .static-image-container {
         position: relative;
         max-width: 100%;

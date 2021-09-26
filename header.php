@@ -21,8 +21,10 @@
 ?>
 
 <header id="masthead" class="site-header" role="banner">
+	<?php get_template_part('template-parts/nav/nav','top-bar'); ?>    
 	<?php get_template_part('template-parts/nav/nav','bootstrap'); ?>    
-	<?php if (is_front_page()) : ?>
+	<div class="header-stripe" ></div>
+	<?php if (is_front_page()) : ?>		
 		<?php get_template_part('template-parts/header/header','static-image'); ?>    
 		<!-- <div class="home-page-title">
 			<?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?>
@@ -30,7 +32,7 @@
 	<?php else : ?>
 		<?php get_template_part('template-parts/header/header','page'); ?>    
 	<?php endif ?>
-</header>
+</header> 
 
 
 

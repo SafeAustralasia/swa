@@ -14,7 +14,7 @@ $current_page_title = get_the_title();
 <script>
     
 </script>
-<nav class="topnav" id="myTopnav">
+<nav class="main-nav" id="main-nav">
 <?php 
     if( ! empty( $header_menus ) && is_array( $header_menus ) ) : 
 
