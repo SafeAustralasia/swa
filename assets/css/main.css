@@ -640,7 +640,7 @@ header .header-image-container h1 {
 }
 header .header-image-container .header-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 10%;
   width: 70%;
   font-weight: normal;
