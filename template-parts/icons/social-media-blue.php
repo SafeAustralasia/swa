@@ -1,7 +1,7 @@
 <div class="social-media-icons"> 
     <!-- facebook -->
     <a href="#" target="blank"> 
-        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="0 0 130.000000 130.000000" preserveAspectRatio="xMidYMid meet">
+        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="18.000000pt" height="18.000000pt" viewBox="0 0 130.000000 130.000000" preserveAspectRatio="xMidYMid meet">
             <metadata> Created by potrace 1.16, written by Peter Selinger 2001-2019 </metadata>
             <g transform="translate(0.000000,130.000000) scale(0.100000,-0.100000)" fill="#ADADAD" stroke="none"> 
                 <path d="M491 1234 c-192 -52 -354 -207 -418 -399 -22 -67 -26 -98 -26 -190 0
@@ -17,7 +17,7 @@
     </a> 
     <!-- Instagram -->
     <a href="" target="blank"> 
-        <svg xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="49.605 0 2834.65 2834.649"> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.000000pt" height="18.000000pt" viewBox="49.605 0 2834.65 2834.649"> 
             <circle cx="1466.93" cy="1417.324" r="1417.324" fill="#ADADAD"></circle> 
             <path fill="#1D70A3" d="M1892.128 726.379h-850.395c-147.639 0-265.749 
                         118.11-265.749 265.749v850.394c0 147.639 118.11 265.748 265.749 
@@ -29,7 +29,7 @@
     </a>
     <!-- linked in -->
     <a href="" target="blank"> 
-        <svg xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" viewBox="0 0 512 512">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.000000pt" height="18.000000pt" viewBox="0 0 512 512">
             <switch>
                 <g>
                     <path fill="#ADADAD" d="M506 256.879c0 138.066-111.934 250-250 250-138.067 0-250-111.934-250-250 0-138.067 111.933-250 250-250 138.066 0 250 111.933 250 250zm0 0"></path>
@@ -40,7 +40,7 @@
     </a> 
     <!-- you tube -->
     <a href="#" target="blank">
-        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="20.000000pt" height="20.000000pt" viewBox="0 0 128 128">
+        <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" width="18.000000pt" height="18.000000pt" viewBox="0 0 128 128">
             <circle cx="64" cy="64" r="64" fill="#ADADAD"></circle>
             <path fill="#1D70A3" fill-rule="evenodd" d="M98.62,53.92c-.49-6.75-1.72-13.72-10.35-14.23a426.5,426.5,0,0,0-48.55,0c-8.63.5-9.86,7.48-10.35,14.23a135,135,0,0,0,0,20.16c.49,6.75,1.72,13.72,10.35,14.23a426.5,426.5,0,0,0,48.55,0c8.63-.5,9.86-7.48,10.35-14.23A135,135,0,0,0,98.62,53.92ZM57,73V53L76,63Z"></path>
         </svg> 

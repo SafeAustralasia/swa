@@ -1,7 +1,4 @@
-<style>
-
-</style>
-<div class="static-image-container overlay-black-600 height-20em">
+<div class="header-image-container static-image-container overlay-black-600 height-20em">
   <?php if( has_post_thumbnail() ) : ?>
     <?php the_post_thumbnail( 'full' ); ?>
   <?php endif ?>

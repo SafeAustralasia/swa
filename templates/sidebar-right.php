@@ -4,10 +4,10 @@ get_header();
 ?>
 <div class="container page-main">
     <div class="row">
-        <div class="col-lg-8 mr-4">
+        <div class="col-lg-9 mr-4">
             <?php the_content() ?>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
             <?php
             get_template_part('template-parts/sidebars/sidebar','right');
             ?>

@@ -661,9 +661,12 @@ header .header-image-container .page-header-title {
   font-size: 1.2em;
   z-index: 2;
 }
+header .header-image-container .page-header-title h1 {
+  color: white;
+}
 
 footer {
-  background-color: #BF2B39;
+  background-color: #1D70A3;
 }
 footer .container {
   padding: 3em 0;
@@ -704,16 +707,20 @@ footer a:hover {
   background-color: #fff;
 }
 .main-nav .navbar-collapse .nav-item {
-  padding-right: 2em;
+  padding-right: 1.5em;
 }
 .main-nav .navbar-collapse .nav-item a {
-  color: #1D70A3;
+  color: #474747;
   font-weight: normal;
+  font-family: OpenSans;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 800;
 }
 .main-nav .navbar-collapse .nav-item a:hover {
-  color: #619bbf;
+  color: #1D70A3;
+}
+.main-nav .navbar-collapse .nav-item a:active {
+  color: #BF2B39;
 }
 .main-nav .navbar-collapse .nav-item .dropdown-menu {
   background-color: #5c5c5c;

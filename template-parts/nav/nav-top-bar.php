@@ -45,6 +45,7 @@ $top_bar_menu_items = wp_get_nav_menu_items( $top_bar_menu_id );
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <?php  
+                  // loop through child menu items
                   foreach( $child_menu_items as $child_menu_item ) : 
                   ?>
                     <a class="dropdown-item" href="<?php echo esc_html( $child_menu_item->url ) ?>">
