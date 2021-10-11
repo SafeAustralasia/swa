@@ -7,10 +7,15 @@
 //template-parts/header/header","slider"
 get_header();
 ?>
-<!-- <div class="div1"></div>
-<div class="div2">
-	<div class="square"></div>
-</div> -->
+<style>
+    .strip-bg {
+        background-image: url('<?php echo ASM_ASSETS_URI ?>/images/soloman.jpg');
+    }
+</style>
+<div class="height-30em strip-bg"></div>
+<div class="height-30em text-center mt-5">
+    <h1>Ways You Can Help</h1>
+</div>
 <?php
 // html pulled from assets/inc/classes/widget-html/text-blocks
 //dynamic_sidebar("Home Text Blocks");

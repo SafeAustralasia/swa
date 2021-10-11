@@ -32,7 +32,8 @@ const plugins = ( argv ) => [
 
 	new CopyPlugin( {
 		patterns: [
-			{ from: LIB_DIR, to: BUILD_DIR + '/library' }
+			{ from: LIB_DIR, to: BUILD_DIR + '/library' },
+			{ from: IMG_DIR, to: BUILD_DIR + '/img' }
 		]
 	} ),
 ];

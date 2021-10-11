@@ -64,10 +64,11 @@ if ( ! function_exists( 'std_button' ) ) :
 	 * Outputs a standard button
 	 * @param $btn_href - hyper link
 	 * @param $btn_text - button text
+	 * @param $btn-type - button type, primary or secondary
 	 */
-	function std_button( $btn_href, $btn_text ) {
+	function std_button( $btn_href, $btn_text, $btn_type = "blue" ) {
 		?>
-			<button class="learn-more" onclick="location.href='<?php echo esc_html( $btn_href ); ?>'">
+			<button class="learn-more btn-<?php echo $btn_type ?>" onclick="location.href='<?php echo esc_html( $btn_href ); ?>'">
 			<span class="circle" aria-hidden="true">
 				<span class="icon arrow"></span>
 			</span>

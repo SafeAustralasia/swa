@@ -93,3 +93,51 @@ button {
     }
   }
 }
+
+.btn-blue {
+  background-color: $color-primary;
+  border: 1px solid $color-primary;
+  &.learn-more {
+    .circle {
+      background-color: $color-primary-700;
+    }
+    .button-text {
+      color: $color-white;
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.btn-red {
+  background-color: tint($color-secondary,50%);
+  border: 1px solid $color-secondary;
+  &.learn-more {
+    .circle {
+      background-color: tint($color-secondary,40%);
+    }
+    .button-text {
+      color: $color-secondary;
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
+.btn-grey {
+  background-color: tint($color-grey,50%);
+  border: 1px solid $color-grey;
+  &.learn-more {
+    .circle {
+      background-color: tint($color-grey,40%);
+    }
+    .button-text {
+      color: $color-grey;
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}

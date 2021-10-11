@@ -20,13 +20,10 @@
         wp_body_open();
     endif;
 ?>
-
 <header id="masthead" class="site-header" role="banner">
-	<?php get_template_part('template-parts/nav/nav','top-bar'); ?>    
-	<?php get_template_part('template-parts/nav/nav','bootstrap'); ?>    
-	<div class="header-stripe" ></div>
+	<?php //get_template_part('template-parts/nav/nav','top-bar'); ?>    
 	<?php if (is_front_page()) : ?>		
-		<?php get_template_part('template-parts/header/header','slider'); ?>    
+		<?php get_template_part('template-parts/header/header','panels'); ?>    
 		<!-- <div class="home-page-title">
 			<?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?>
 		</div> -->
@@ -34,7 +31,5 @@
 		<?php get_template_part('template-parts/header/header','page'); ?>    
 	<?php endif ?>
 </header> 
-
-
 
     

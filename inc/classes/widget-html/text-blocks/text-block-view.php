@@ -5,7 +5,7 @@
 
     </div>
     <div class="col-lg-6 text-block">
-      <h1><?php echo $instance['title']; ?></h1>
+      <h2><?php echo $instance['title']; ?></h2>
       <p><?php echo nl2br($instance['details']); ?></p>
       <p>
         <?php 

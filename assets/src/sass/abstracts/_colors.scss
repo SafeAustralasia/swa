@@ -1,5 +1,3 @@
-@use "functions" as *;
-
 $color-primary: #1D70A3;
 $color-primary-700: tint($color-primary,10%);
 $color-primary-600: tint($color-primary,20%);
@@ -22,7 +20,9 @@ $color-secondary-100: tint($color-secondary,80%);
 
 $color-tertiary: #89CF34;
 
-$color-grey: #333;
+//#1B2936
+
+$color-grey: #101820;
 $color-grey-700: tint($color-grey,10%);
 $color-grey-600: tint($color-grey,20%);
 $color-grey-500: tint($color-grey,30%);

@@ -1,8 +1,13 @@
-<div class="header-image-container static-image-container overlay-black-600 height-20em">
-  <?php if( has_post_thumbnail() ) : ?>
-    <?php the_post_thumbnail( 'full' ); ?>
-  <?php endif ?>
-  <div class="page-header-title">
-    <h1><?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?></h1>
-  </div>
+<div class="header-page-container overlay-black-400">
+	<img src="<?php echo ASM_ASSETS_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image">
+	<div class="header-container">
+		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
+		<!-- <div class="container text-container align-items-center"> -->
+      <h1><?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?></h1>	
+		<!-- </div> -->
+	</div>
+	<!-- <div class="header-strip height-10em">
+		
+	</div> -->
 </div>
+
