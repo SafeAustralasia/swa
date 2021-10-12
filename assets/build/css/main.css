@@ -986,6 +986,49 @@ aside {
           aside .widget-sidebar .wp-block-group ul li:hover a {
             color: white; }
 
+/* [class^="icon-"],
+    [class*=" icon-"] {
+        display: inline-block;
+        width: 10em;
+        height: 10em;
+        stroke-width: 0;
+        stroke: red;
+        fill: red;
+    } */
+.icon-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #1D70A3;
+  font-weight: bold;
+  font-size: 1.5rem; }
+  .icon-link .icon-linked-in {
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    vertical-align: middle; }
+    .icon-link .icon-linked-in .outer {
+      fill: #1D70A3; }
+    .icon-link .icon-linked-in .inner {
+      fill: #fff; }
+  .icon-link #icon-fb-footer {
+    width: 1.2em;
+    height: 1.2em;
+    display: inline-block;
+    vertical-align: middle; }
+    .icon-link #icon-fb-footer .outer {
+      fill: #89CF34; }
+  .icon-link #icon-fb-header {
+    width: 1.5em;
+    height: 1.5em;
+    display: inline-block;
+    vertical-align: middle; }
+    .icon-link #icon-fb-header .outer {
+      fill: #BF2B39; }
+  .icon-link .icon-facebook:hover .outer {
+    background-color: green; }
+  .icon-link span {
+    vertical-align: middle; }
+
 * {
   box-sizing: border-box; }
   *::before, *::after {
@@ -1116,7 +1159,7 @@ button {
   padding: .6em 1.2em;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #fff !important;
   width: 100%;
   transition: all 600ms ease-in-out;
   z-index: 2; }
