@@ -76,6 +76,7 @@
 
 .help-icons {
     margin-top: 3em;
+    max-width: $max-width;
     [class^="col-"],
     [class*=" col-"] {
         margin: 2em inherit;

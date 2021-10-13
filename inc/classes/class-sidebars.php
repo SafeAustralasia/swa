@@ -25,7 +25,7 @@ class Sidebars  {
         add_action( 'widgets_init', [ $this, 'register_sidebars'] );
         add_action( 'widgets_init', [ $this, 'register_text_blocks_widget'] );
         add_action( 'widgets_init', [ $this, 'register_slider_widget'] );
-
+        //add_action( 'widgets_init', [ $this, 'register_footer_widget'] );
 	}
     
     public function register_sidebars() {

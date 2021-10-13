@@ -1,8 +1,37 @@
 footer {
-    background-color: $color-primary;
+    background-color: $color-grey-700;
+    padding: 2.75em;
+    .wp-block-columns {
+        max-width: $max-width;
+        margin-left: 4em;
+        justify-content: space-between;
+        @include respond-above(md) {                
+            //justify-content: center;
+        }
+        margin-bottom: 0;
+        .wp-block-column {
+            margin-left: 2em;
+            h2,p,a {
+                color: $color-white;
+            }
+            ul {
+                padding-left: 0;
+                li {
+                    list-style: none;
+                }
+            }
+            @include respond-above(md) {                
+                &:nth-child(even) {
+                    padding-left: 4em;
+                }
+            }
+        }
+    }
     .container {
         .row {
-            padding: 3em 1.5em;    
+            max-width: $max-width;
+            padding: 3em inherit;    
+            justify-content: center;
             .footer-col {
                 h5, p, ul, li {
                     color: #fff;

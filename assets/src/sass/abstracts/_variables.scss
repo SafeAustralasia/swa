@@ -5,3 +5,10 @@ $default-font-size: 1.6rem;
 $grid-width: 124rem; // 1240px
 $gutter-vertical: 4rem; //40px
 $gutter-horizontal: 4rem; // 40px
+
+$max-width: 1264px;
+
+.row {
+    max-width: $max-width !important;
+}
+

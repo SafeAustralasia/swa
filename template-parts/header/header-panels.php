@@ -18,7 +18,7 @@ $site_description = get_bloginfo( 'description' );
 	<div class="header-container content">
 		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
 		<div class="container text-container">
-			<div class="row align-items-center justify-content-center h-100">
+			<div class="row align-items-center h-100">
 				<div class="col-12">
 					<div id="h1">Safety</div>
 					<div id="h2">Security</div>
