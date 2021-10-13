@@ -11,7 +11,7 @@
     <div class="row">
       <div class="col-md-4 footer-col">
         <h5>Icons</h5>
-        <?php get_template_part('template-parts/icons/social-media','grey'); ?>
+        <?php get_template_part('template-parts/icons/icons','social-media'); ?>
       </div>
       <div class="col-md-4 footer-col">
         <h5>Quick Links</h5>

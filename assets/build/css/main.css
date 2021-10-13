@@ -995,6 +995,15 @@ aside {
         stroke: red;
         fill: red;
     } */
+.social-media-icons svg {
+  width: 2.5em;
+  height: 2.5em;
+  margin-right: 0.1em; }
+  .social-media-icons svg .inner {
+    fill: #1D70A3; }
+  .social-media-icons svg .outer {
+    fill: #b7babc; }
+
 .icon-link {
   display: inline-block;
   text-decoration: none;
@@ -1028,6 +1037,17 @@ aside {
     background-color: green; }
   .icon-link span {
     vertical-align: middle; }
+
+.help-icons {
+  margin-top: 3em; }
+  .help-icons [class^="col-"],
+  .help-icons [class*=" col-"] {
+    margin: 2em inherit; }
+    .help-icons [class^="col-"] svg,
+    .help-icons [class*=" col-"] svg {
+      fill: #1D70A3;
+      width: 6.5em;
+      height: 6.5em; }
 
 * {
   box-sizing: border-box; }

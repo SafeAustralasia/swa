@@ -10,6 +10,19 @@
         stroke: red;
         fill: red;
     } */
+.social-media-icons {
+    svg {
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 0.1em;
+        .inner {
+            fill:$color-primary;
+        }
+        .outer {
+            fill:$color-grey-200;
+        }
+    }
+}
 .icon-link {
     display: inline-block;
     text-decoration: none;    
@@ -59,4 +72,17 @@
         vertical-align: middle;
     }
 
+}
+
+.help-icons {
+    margin-top: 3em;
+    [class^="col-"],
+    [class*=" col-"] {
+        margin: 2em inherit;
+        svg {
+            fill:$color-primary;
+            width: 6.5em;
+            height: 6.5em;
+        }
+    }
 }
