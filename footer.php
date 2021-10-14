@@ -7,7 +7,7 @@
 ?>
 <div class="text-center mt-5 mb-5">
     <?php //get_template_part('template-parts/icons/social-media'); ?>
-    <h1>Ways You Can Help</h1>
+    <h2>Ways You Can Help</h2>
     <p>The Safe Australasia Foundation Provides a Variety of Programs and Services to Help Keep Us Safe!</p>
     <div class="container help-icons">
         <div class="row">

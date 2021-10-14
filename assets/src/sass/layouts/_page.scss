@@ -1,26 +1,26 @@
 .container {    
     transition: .5s all ease;
 }
-svg {
-    fill: green;
-    
-}
+
 .page-main {
     margin-top: 2em;
     .row {
-        //max-width: $max-width !important;
-        background-color: $color-grey-50;
-        margin-right: 0;
-        h2 {
-            color: $color-primary;
-        }
-        ul {
-            margin-left: 1em;
-            li {
-                display: list-item;
-                // list-style-type: "🤯";
-                // padding-inline-start: 1ch;
-                list-style-image: url('../img/bullet-1.svg');
+        max-width: $max-width !important;
+        //margin-left: .95rem;
+        .page-column {
+            background-color: $color-white;
+            h2 {
+                margin-top: .4rem;
+                color: $color-primary;
+            }
+            ul {
+                margin-left: 1em;
+                li {
+                    display: list-item;
+                    // list-style-type: "🤯";
+                    // padding-inline-start: 1ch;
+                    list-style-image: url('../img/bullet-1.svg');
+                }
             }
         }
     }

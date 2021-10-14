@@ -1,22 +1,28 @@
 $color-primary: #1D70A3;
-$color-primary-700: tint($color-primary,10%);
-$color-primary-600: tint($color-primary,20%);
-$color-primary-500: tint($color-primary,30%);
-$color-primary-400: tint($color-primary,40%);
-$color-primary-350: tint($color-primary,50%);
-$color-primary-300: tint($color-primary,60%);
-$color-primary-200: tint($color-primary,70%);
-$color-primary-100: tint($color-primary,80%);
+$color-primary-900: tint($color-primary,10%);
+$color-primary-800: tint($color-primary,20%);
+$color-primary-700: tint($color-primary,30%);
+$color-primary-600: tint($color-primary,40%);
+$color-primary-500: tint($color-primary,50%);
+$color-primary-400: tint($color-primary,60%);
+$color-primary-350: tint($color-primary,70%);
+$color-primary-300: tint($color-primary,80%);
+$color-primary-200: tint($color-primary,90%);
+$color-primary-100: tint($color-primary,95%);
+$color-primary-50: tint($color-primary,98%);
 
 $color-secondary: #BF2B39;
-$color-secondary-700: tint($color-secondary,10%);
-$color-secondary-600: tint($color-secondary,20%);
-$color-secondary-500: tint($color-secondary,30%);
-$color-secondary-400: tint($color-secondary,40%);
-$color-secondary-350: tint($color-secondary,50%);
-$color-secondary-300: tint($color-secondary,60%);
-$color-secondary-200: tint($color-secondary,70%);
-$color-secondary-100: tint($color-secondary,80%);
+$color-secondary-900: tint($color-secondary,10%);
+$color-secondary-800: tint($color-secondary,20%);
+$color-secondary-700: tint($color-secondary,30%);
+$color-secondary-600: tint($color-secondary,40%);
+$color-secondary-500: tint($color-secondary,50%);
+$color-secondary-400: tint($color-secondary,60%);
+$color-secondary-350: tint($color-secondary,70%);
+$color-secondary-300: tint($color-secondary,80%);
+$color-secondary-200: tint($color-secondary,90%);
+$color-secondary-100: tint($color-secondary,95%);
+$color-secondary-50: tint($color-secondary,98%);
 
 $color-tertiary: #89CF34;
 

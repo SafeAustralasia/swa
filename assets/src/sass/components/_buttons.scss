@@ -111,7 +111,7 @@ button {
 }
 
 .btn-hero {
-  background-color: tint($color-secondary,15%);
+  background-color: $color-secondary;
   border: 1px solid $color-secondary;
   border-radius: 1.625rem;
   font-size: .9rem;
@@ -119,11 +119,12 @@ button {
     width: 12rem;
     .square {
       border-radius: 1.625rem;
-      background-color: tint($color-secondary,1%);
+      background-color: tint($color-secondary,15%);
     }
     .button-text {
       color: $color-white;
-      padding: 0.71rem 0;
+      line-height: .4rem;
+      padding: 1rem 0;
       margin: 0 0 0 1.4rem;
       &:hover {
         color: $color-white;

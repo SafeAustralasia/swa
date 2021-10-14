@@ -4,7 +4,7 @@ get_header();
 ?>
 <div class="container page-main">
     <div class="row">
-        <div class="col-lg-9 mr-4">
+        <div class="col-lg-9 mr-4 page-column">
             <?php the_content() ?>
         </div>
         <div class="col-lg-3 sidebar-column sidebar-right">

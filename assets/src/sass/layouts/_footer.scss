@@ -1,10 +1,18 @@
+.strip-bg, footer {
+    background-image: url('../img/soloman.jpg');
+}
 footer {
     background-color: $color-grey-700;
     padding: 2.75em 0 0 0;
+    a {
+        font-size: 1em;
+        text-decoration: none;
+        line-height: 2.2em;
+    }
     .widget-footer {   
         max-width: $max-width;
         margin: auto;
-        padding: 2rem 2rem 0 2rem;
+        padding: 2rem 1.2rem 0 1.2rem;
         .wp-block-columns {   
             margin: auto;
             margin: 0;
@@ -16,9 +24,10 @@ footer {
                     color: $color-white;
                 }
                 ul {
-                    padding-left: 0;
+                    padding-left: .8em;
                     li {
                         list-style: none;
+                        list-style-image: url('../img/bullet-1.svg');
                     }
                 }
                 @include respond-above(md) {                
