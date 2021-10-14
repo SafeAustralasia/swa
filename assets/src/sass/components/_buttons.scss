@@ -113,25 +113,39 @@ button {
 .btn-hero {
   background-color: $color-secondary;
   border: 1px solid $color-secondary;
-  border-radius: 1.625rem;
-  font-size: .9rem;
   &.learn-more {
-    width: 12rem;
     .square {
-      border-radius: 1.625rem;
-      background-color: tint($color-secondary,15%);
+      background-color: $color-secondary-700;
     }
     .button-text {
       color: $color-white;
-      line-height: .4rem;
-      padding: 1rem 0;
-      margin: 0 0 0 1.4rem;
       &:hover {
         color: $color-white;
       }
     }
   }
 }
+
+// .btn-hero {
+//   background-color: $color-secondary;
+//   border: 1px solid $color-secondary;
+//   font-size: .9rem;
+//   &.learn-more {
+//     width: 12rem;
+//     .square {
+//       background-color: $color-secondary-700;
+//     }
+//     .button-text {
+//       color: $color-white;
+//       line-height: .4rem;
+//       padding: 1rem 0;
+//       margin: 0 0 0 1.4rem;
+//       &:hover {
+//         color: $color-white;
+//       }
+//     }
+//   }
+// }
 
 .btn-red {
   background-color: tint($color-secondary,50%);
@@ -168,7 +182,7 @@ button {
 .btn-hero-container {
   button {
     margin: auto;
-    margin-left: calc(50% - 95px);
+    margin-left: calc(50% - 88px);
     margin-top: 4.5rem;
     //transform: translate(50%,-50%);
   }

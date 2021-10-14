@@ -86,6 +86,21 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/editor.js":
+/*!**************************!*\
+  !*** ./src/js/editor.js ***!
+  \**************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _sass_editor_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/editor.scss */ "./src/sass/editor.scss");
+/* harmony import */ var _sass_editor_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_sass_editor_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/***/ }),
+
 /***/ "./src/js/gsap/index.js":
 /*!******************************!*\
   !*** ./src/js/gsap/index.js ***!
@@ -131,8 +146,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _gsap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_gsap__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./slider */ "./src/js/slider/index.js");
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_slider__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/main.scss */ "./src/sass/main.scss");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _editor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./editor */ "./src/js/editor.js");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sass/main.scss */ "./src/sass/main.scss");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
  // images
@@ -229,6 +246,17 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 //     }
 //     new SlickCarousel();
 //   } )( jQuery );
+
+/***/ }),
+
+/***/ "./src/sass/editor.scss":
+/*!******************************!*\
+  !*** ./src/sass/editor.scss ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 

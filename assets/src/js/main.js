@@ -1,5 +1,6 @@
 import './gsap';
 import './slider';
+import './editor';
 
 import '../sass/main.scss';
 

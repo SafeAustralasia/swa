@@ -113,6 +113,8 @@ class ASM_THEME {
 		 */
 		add_theme_support( 'editor-styles' );
 
+		add_editor_style( 'assets/build/css/editor.css' );
+
 		// sets maximum content width
 		global $content_width;
 		if( ! isset( $content_width ) ) {
