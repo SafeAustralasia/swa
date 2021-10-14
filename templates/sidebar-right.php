@@ -7,7 +7,7 @@ get_header();
         <div class="col-lg-9 mr-4">
             <?php the_content() ?>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 sidebar-column sidebar-right">
             <?php
             get_template_part('template-parts/sidebars/sidebar','right');
             ?>

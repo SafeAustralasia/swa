@@ -26,7 +26,7 @@ button {
   &.learn-more {
     width: 11rem;
     height: auto;
-    .circle {
+    .square {
       @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
       position: relative;
       display: block;
@@ -79,7 +79,7 @@ button {
     }
   }
   &:hover {
-    .circle {
+    .square {
       width: 100%;
       .icon {
         &.arrow {
@@ -98,7 +98,7 @@ button {
   background-color: $color-primary;
   border: 1px solid $color-primary;
   &.learn-more {
-    .circle {
+    .square {
       background-color: $color-primary-700;
     }
     .button-text {
@@ -110,11 +110,33 @@ button {
   }
 }
 
+.btn-hero {
+  background-color: tint($color-secondary,15%);
+  border: 1px solid $color-secondary;
+  border-radius: 1.625rem;
+  font-size: .9rem;
+  &.learn-more {
+    width: 12rem;
+    .square {
+      border-radius: 1.625rem;
+      background-color: tint($color-secondary,1%);
+    }
+    .button-text {
+      color: $color-white;
+      padding: 0.71rem 0;
+      margin: 0 0 0 1.4rem;
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}
+
 .btn-red {
   background-color: tint($color-secondary,50%);
   border: 1px solid $color-secondary;
   &.learn-more {
-    .circle {
+    .square {
       background-color: tint($color-secondary,40%);
     }
     .button-text {
@@ -130,7 +152,7 @@ button {
   background-color: tint($color-grey,50%);
   border: 1px solid $color-grey;
   &.learn-more {
-    .circle {
+    .square {
       background-color: tint($color-grey,40%);
     }
     .button-text {
@@ -139,5 +161,14 @@ button {
         color: $color-white;
       }
     }
+  }
+}
+
+.btn-hero-container {
+  button {
+    margin: auto;
+    margin-left: calc(50% - 95px);
+    margin-top: 4.5rem;
+    //transform: translate(50%,-50%);
   }
 }

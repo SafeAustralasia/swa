@@ -699,11 +699,11 @@ footer {
 a {
   color: #1D70A3; }
   a:hover {
-    color: #282f36; }
+    color: #585d63; }
 
 h1, h2, h3, h4, h5 {
   font-family: Open Sans Condensed;
-  color: #101820;
+  color: #1D70A3;
   font-weight: 600;
   text-transform: uppercase; }
 
@@ -718,6 +718,12 @@ h3 {
 
 h4 {
   font-size: 1.2em; }
+
+hr {
+  background-color: #fff;
+  border: 0;
+  height: 1px;
+  width: 100%; }
 
 .bd {
   border: 2px solid #000; }
@@ -904,7 +910,7 @@ header .header-page-container {
   padding-right: 0;
   height: 20em; }
   header .header-page-container .header-strip {
-    background-color: #282f36; }
+    background-color: #585d63; }
   header .header-page-container .header-container {
     position: absolute;
     top: 0;
@@ -924,54 +930,55 @@ header .header-page-container {
     object-fit: cover; }
 
 footer {
-  background-color: #282f36;
-  padding: 2.75em; }
-  footer .wp-block-columns {
+  background-color: #585d63;
+  padding: 2.75em 0 0 0; }
+  footer .widget-footer {
     max-width: 1264px;
-    margin-left: 4em;
-    justify-content: space-between;
-    margin-bottom: 0; }
-    footer .wp-block-columns .wp-block-column {
-      margin-left: 2em; }
-      footer .wp-block-columns .wp-block-column h2, footer .wp-block-columns .wp-block-column p, footer .wp-block-columns .wp-block-column a {
-        color: #fff; }
-      footer .wp-block-columns .wp-block-column ul {
-        padding-left: 0; }
-        footer .wp-block-columns .wp-block-column ul li {
-          list-style: none; }
-      @media (min-width: 992px) {
-        footer .wp-block-columns .wp-block-column:nth-child(even) {
-          padding-left: 4em; } }
-  footer .container .row {
-    max-width: 1264px;
-    padding: 3em inherit;
-    justify-content: center; }
-    footer .container .row .footer-col h5, footer .container .row .footer-col p, footer .container .row .footer-col ul, footer .container .row .footer-col li {
+    margin: auto;
+    padding: 2rem 2rem 0 2rem; }
+    footer .widget-footer .wp-block-columns {
+      margin: auto;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 0; }
+      footer .widget-footer .wp-block-columns .wp-block-column {
+        margin: 0; }
+        footer .widget-footer .wp-block-columns .wp-block-column h2, footer .widget-footer .wp-block-columns .wp-block-column p, footer .widget-footer .wp-block-columns .wp-block-column a {
+          color: #fff; }
+        footer .widget-footer .wp-block-columns .wp-block-column ul {
+          padding-left: 0; }
+          footer .widget-footer .wp-block-columns .wp-block-column ul li {
+            list-style: none; }
+        @media (min-width: 992px) {
+          footer .widget-footer .wp-block-columns .wp-block-column:nth-child(even) {
+            padding-left: 4em; } }
+  footer .footer-bar {
+    max-width: 1240px;
+    margin: 0 1.5rem;
+    margin: auto; }
+    footer .footer-bar .row {
+      margin: 1.5em 0;
+      justify-content: center;
       color: #fff; }
-    footer .container .row .footer-col h5 {
-      font-size: 1em;
-      text-transform: uppercase;
-      margin-top: 1em; }
-      @media (min-width: 768px) {
-        footer .container .row .footer-col h5 {
-          margin-top: 0; } }
-    footer .container .row .footer-col ul {
-      padding-left: 1.3rem; }
-      footer .container .row .footer-col ul li {
-        padding: .2rem 0; }
-    footer .container .row .footer-col a {
-      color: #fff;
-      text-decoration: none; }
-    footer .container .row .footer-col a:hover {
-      color: #9fa3a6; }
-    footer .container .row .footer-col:first-child h5 {
-      margin-top: 0; }
 
 .container {
   transition: .5s all ease; }
 
+svg {
+  fill: green; }
+
 .page-main {
-  margin: 2em auto; }
+  margin-top: 2em; }
+  .page-main .row {
+    background-color: #fafafb;
+    margin-right: 0; }
+    .page-main .row h2 {
+      color: #1D70A3; }
+    .page-main .row ul {
+      margin-left: 1em; }
+      .page-main .row ul li {
+        display: list-item;
+        list-style-image: url(../../src/img/bullet-1.svg); }
 
 .widget-text-block {
   height: 25em; }
@@ -981,32 +988,32 @@ footer {
 
 aside {
   margin: auto; }
-  aside .widget-sidebar .wp-block-group {
-    width: 25em;
-    background-color: #BF2B39;
+  aside .widget-sidebar {
+    width: 100%;
+    background-color: #1D70A3;
     margin: auto; }
-    aside .widget-sidebar .wp-block-group h2 {
+    aside .widget-sidebar h2 {
       color: #fff;
       font-size: 1.1em;
       margin: 0;
       padding: .6em 1em;
       text-transform: uppercase;
       font-weight: bold; }
-    aside .widget-sidebar .wp-block-group ul {
-      background-color: #e5aab0;
+    aside .widget-sidebar ul {
+      background-color: #a5c6da;
       list-style-type: none;
       padding-left: 0; }
-      aside .widget-sidebar .wp-block-group ul li {
+      aside .widget-sidebar ul li {
         padding: 0.5em 1.5em;
         cursor: pointer; }
-        aside .widget-sidebar .wp-block-group ul li:nth-child(even) {
-          background-color: #ecbfc4; }
-        aside .widget-sidebar .wp-block-group ul li a {
-          color: #282f36;
+        aside .widget-sidebar ul li:nth-child(even) {
+          background-color: #bbd4e3; }
+        aside .widget-sidebar ul li a {
+          color: #585d63;
           text-decoration: none; }
-        aside .widget-sidebar .wp-block-group ul li:hover {
-          background-color: #d26b74; }
-          aside .widget-sidebar .wp-block-group ul li:hover a {
+        aside .widget-sidebar ul li:hover {
+          background-color: #619bbf; }
+          aside .widget-sidebar ul li:hover a {
             color: white; }
 
 /* [class^="icon-"],
@@ -1025,7 +1032,7 @@ aside {
   .social-media-icons svg .inner {
     fill: #1D70A3; }
   .social-media-icons svg .outer {
-    fill: #b7babc; }
+    fill: #e7e8e9; }
 
 .icon-link {
   display: inline-block;
@@ -1093,7 +1100,7 @@ button {
   button.learn-more {
     width: 11rem;
     height: auto; }
-    button.learn-more .circle {
+    button.learn-more .square {
       transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
       position: relative;
       display: block;
@@ -1101,20 +1108,20 @@ button {
       width: 2.3rem;
       height: 2.3rem;
       background: #d98088; }
-      button.learn-more .circle .icon {
+      button.learn-more .square .icon {
         transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
         position: absolute;
         top: 0;
         bottom: 0;
         margin: auto;
         background: #fff; }
-        button.learn-more .circle .icon.arrow {
+        button.learn-more .square .icon.arrow {
           transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
           left: 0.225rem;
           width: 1.125rem;
           height: 0.125rem;
           background: none; }
-          button.learn-more .circle .icon.arrow::before {
+          button.learn-more .square .icon.arrow::before {
             position: absolute;
             content: '';
             top: -0.25rem;
@@ -1138,9 +1145,9 @@ button {
       line-height: 1;
       text-align: center;
       text-transform: uppercase; }
-  button:hover .circle {
+  button:hover .square {
     width: 100%; }
-    button:hover .circle .icon.arrow {
+    button:hover .square .icon.arrow {
       background: #fff;
       transform: translate(1rem, 0); }
   button:hover .button-text {
@@ -1149,17 +1156,34 @@ button {
 .btn-blue {
   background-color: #1D70A3;
   border: 1px solid #1D70A3; }
-  .btn-blue.learn-more .circle {
+  .btn-blue.learn-more .square {
     background-color: #347eac; }
   .btn-blue.learn-more .button-text {
     color: #fff; }
     .btn-blue.learn-more .button-text:hover {
       color: #fff; }
 
+.btn-hero {
+  background-color: #c94b57;
+  border: 1px solid #BF2B39;
+  border-radius: 1.625rem;
+  font-size: .9rem; }
+  .btn-hero.learn-more {
+    width: 12rem; }
+    .btn-hero.learn-more .square {
+      border-radius: 1.625rem;
+      background-color: #c02d3b; }
+    .btn-hero.learn-more .button-text {
+      color: #fff;
+      padding: 0.71rem 0;
+      margin: 0 0 0 1.4rem; }
+      .btn-hero.learn-more .button-text:hover {
+        color: #fff; }
+
 .btn-red {
   background-color: #df959c;
   border: 1px solid #BF2B39; }
-  .btn-red.learn-more .circle {
+  .btn-red.learn-more .square {
     background-color: #d98088; }
   .btn-red.learn-more .button-text {
     color: #BF2B39; }
@@ -1169,12 +1193,17 @@ button {
 .btn-grey {
   background-color: #888c90;
   border: 1px solid #101820; }
-  .btn-grey.learn-more .circle {
+  .btn-grey.learn-more .square {
     background-color: #707479; }
   .btn-grey.learn-more .button-text {
     color: #101820; }
     .btn-grey.learn-more .button-text:hover {
       color: #fff; }
+
+.btn-hero-container button {
+  margin: auto;
+  margin-left: calc(50% - 95px);
+  margin-top: 4.5rem; }
 
 .div1, .div2 {
   height: 100vh; }
@@ -1212,13 +1241,13 @@ button {
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
-    border: 1px solid #b7babc;
+    border: 1px solid #e7e8e9;
     border-radius: 0;
     transition: box-shadow .05s ease-in-out; }
     .main-nav .navbar-toggler:focus {
       text-decoration: none;
       outline: 0;
-      border: 1px solid #b7babc;
+      border: 1px solid #e7e8e9;
       box-shadow: 0 0 0 .05rem; }
     .main-nav .navbar-toggler .navbar-toggler-icon {
       display: inline-block;
@@ -1238,18 +1267,18 @@ button {
       .main-nav .navbar-collapse .nav-item a:hover {
         color: #1D70A3; }
     .main-nav .navbar-collapse .nav-item .dropdown-menu {
-      background-color: #40464d;
+      background-color: #707479;
       padding: 0;
-      border: 1px solid #b7babc; }
+      border: 1px solid #e7e8e9; }
       .main-nav .navbar-collapse .nav-item .dropdown-menu .dropdown-item {
         background-color: transparent;
         padding: 0.6em; }
       .main-nav .navbar-collapse .nav-item .dropdown-menu .dropdown-item:hover {
         background-color: #ccc;
         padding: 0.6em;
-        color: #282f36; }
+        color: #585d63; }
       .main-nav .navbar-collapse .nav-item .dropdown-menu a {
-        color: #b7babc;
+        color: #e7e8e9;
         font-weight: normal; }
   .main-nav .navbar-collapse .active {
     color: #1D70A3 !important; }
@@ -1281,7 +1310,7 @@ button {
         flex-direction: row-reverse; } }
 
 .home-strip {
-  background-color: #282f36; }
+  background-color: #585d63; }
 
 .blog-excerpt-container .row {
   padding-left: 0;

@@ -50,8 +50,8 @@
                 </svg>
                 <div>
                     <h4>Advertise</h4>
-                    <p>Be a ‘part’ of Safe America as a member and gain exclusive benefits. Whether for business, your family or just yourself, gain benefits that include product discounts and exclusive benefits such as e-learning,</p>
-                    <p><a href="#">Join Today</a></p>
+                    <p>Online advertising provides a unique opportunity for you to support our programs and promote your business at the same time. Our new social networking portal will provide tremendous exposure for your business,</p>
+                    <p><a href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -68,15 +68,21 @@
                 </svg>
                 <div>
                     <h4>Donate</h4>
-                    <p>Be a ‘part’ of Safe America as a member and gain exclusive benefits. Whether for business, your family or just yourself, gain benefits that include product discounts and exclusive benefits such as e-learning,</p>
-                    <p><a href="#">Join Today</a></p>
+                    <p>Make a tax-deductible donation that supports the many programs and services we provide such as training, e-learning and school events.</p>
+                    <p><a href="#">Read More</a></p>
                 </div>
             </div>
         </div>
     </div>
-</div>   
+</div>
 <footer>
     <?php dynamic_sidebar('Footer Sidebar') ?>
+    <hr>
+    <div class="container footer-bar">
+        <div class="row">
+            &copy; <?php echo date("Y"); ?> SafeAustralasia
+        </div>
+    </div>
 </footer>
 <?php wp_footer() ?>
 </body>

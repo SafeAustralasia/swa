@@ -1,68 +1,43 @@
 footer {
     background-color: $color-grey-700;
-    padding: 2.75em;
-    .wp-block-columns {
+    padding: 2.75em 0 0 0;
+    .widget-footer {   
         max-width: $max-width;
-        margin-left: 4em;
-        justify-content: space-between;
-        @include respond-above(md) {                
-            //justify-content: center;
-        }
-        margin-bottom: 0;
-        .wp-block-column {
-            margin-left: 2em;
-            h2,p,a {
-                color: $color-white;
-            }
-            ul {
-                padding-left: 0;
-                li {
-                    list-style: none;
+        margin: auto;
+        padding: 2rem 2rem 0 2rem;
+        .wp-block-columns {   
+            margin: auto;
+            margin: 0;
+            padding: 0;         
+            margin-bottom: 0;
+            .wp-block-column {
+                margin: 0;
+                h2,p,a {
+                    color: $color-white;
                 }
-            }
-            @include respond-above(md) {                
-                &:nth-child(even) {
-                    padding-left: 4em;
+                ul {
+                    padding-left: 0;
+                    li {
+                        list-style: none;
+                    }
+                }
+                @include respond-above(md) {                
+                    &:nth-child(even) {
+                        padding-left: 4em;
+                    }
                 }
             }
         }
     }
-    .container {
+    .footer-bar {
+        //border-top: 0.1em solid $color-white;
+        max-width: 1240px;
+        margin: 0 1.5rem;
+        margin:auto;
         .row {
-            max-width: $max-width;
-            padding: 3em inherit;    
+            margin: 1.5em 0;
             justify-content: center;
-            .footer-col {
-                h5, p, ul, li {
-                    color: #fff;
-                }
-                h5 {
-                    font-size: 1em;
-                    text-transform: uppercase;
-                    margin-top: 1em;
-                    @include respond-above(sm) {
-                        margin-top: 0;
-                    }
-                }
-                ul {
-                    padding-left: 1.3rem;
-                    li {
-                        padding: .2rem 0;
-                    }
-                }
-                a {
-                    color: #fff;
-                    text-decoration: none;
-                }
-                a:hover {
-                    color: $color-grey-300;
-                }
-                &:first-child {
-                    h5 {
-                        margin-top: 0;
-                    }
-                }
-            }
+            color: $color-white;
         }
     }
 }  

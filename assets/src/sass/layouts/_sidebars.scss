@@ -4,14 +4,15 @@
         height: inherit;
     }
 }
-
+.sidebar-column, .sidebar-right {
+  //background-color: $color-grey-100;
+}
 // sidebar css
 aside {
     margin: auto;
     .widget-sidebar {
-      .wp-block-group {
-        width: 25em;
-        background-color: $color-secondary;
+        width: 100%;
+        background-color: $color-primary;
         margin: auto;
         h2 {
           color:#fff;
@@ -22,14 +23,14 @@ aside {
           font-weight: bold;
         }
         ul {
-          background-color: $color-secondary-300;
+          background-color: $color-primary-300;
           list-style-type: none;
           padding-left: 0;
           li {
             padding: 0.5em 1.5em;
             cursor: pointer;
             &:nth-child(even) {
-                background-color: $color-secondary-200;  
+                background-color: $color-primary-200;  
             }
             a {
                 //font-weight: 600;
@@ -37,13 +38,12 @@ aside {
                 text-decoration: none;
             }
             &:hover {
-              background-color: $color-secondary-500;
+              background-color: $color-primary-500;
               a {
                 color: white;
               }
             }
           }
         }
-      }
     }
   }

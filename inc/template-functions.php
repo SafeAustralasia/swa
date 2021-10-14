@@ -9,12 +9,12 @@ if ( ! function_exists( 'std_button' ) ) :
 	 * Outputs a standard button
 	 * @param $btn_href - hyper link
 	 * @param $btn_text - button text
-	 * @param $btn-type - button type, primary or secondary
+	 * @param $btn-color - button type, primary or secondary
 	 */
-	function std_button( $btn_href, $btn_text, $btn_type = "blue" ) {
+	function std_button( $btn_href, $btn_text, $btn_color = "blue" ) {
 		?>
-			<button class="learn-more btn-<?php echo $btn_type ?>" onclick="location.href='<?php echo esc_html( $btn_href ); ?>'">
-			<span class="circle" aria-hidden="true">
+			<button class="learn-more btn-<?php echo $btn_color ?>" onclick="location.href='<?php echo esc_html( $btn_href ); ?>'">
+			<span class="square" aria-hidden="true">
 				<span class="icon arrow"></span>
 			</span>
 			<span class="button-text"><?php echo $btn_text; ?></span>
