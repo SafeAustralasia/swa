@@ -636,6 +636,9 @@ hr {
 .bdl {
   border: 2px solid #fff; }
 
+.bg-red {
+  background-color: red; }
+
 .ml-10 {
   margin-left: 10px; }
 
@@ -698,6 +701,128 @@ hr {
 
 .height-85em {
   height: 85em; }
+
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* stylelint-disable */
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* stylelint-enable */
+/**
+ * 1. Fallback for when there is no custom background color defined. [WordPress]
+ * 2. Remove default margin. [normalize.css]
+ * 3. Set the base elements `font-size` to the value of your choosing.
+ * 4. Work out the unitless `line-height` for your project based around your
+ *    desired `line-height` (defined previously in pixels), and your projects
+ *    base font size.
+ */
+body {
+  margin: 0; }
+  body.mce-content-body {
+    font-family: inherit;
+    margin: 15px; }
+
+blockquote,
+q,
+blockquote.wp-block-quote {
+  quotes: "" "";
+  font-style: italic;
+  padding-left: 16px;
+  background: transparent;
+  text-align: left;
+  /* stylelint-disable */
+  /* stylelint-enable */ }
+  blockquote p,
+  q p,
+  blockquote.wp-block-quote p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400; }
+  blockquote cite,
+  blockquote .wp-block-quote__citation,
+  q cite,
+  q .wp-block-quote__citation,
+  blockquote.wp-block-quote cite,
+  blockquote.wp-block-quote .wp-block-quote__citation {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+    text-transform: uppercase; }
+  blockquote p:last-of-type,
+  q p:last-of-type,
+  blockquote.wp-block-quote p:last-of-type {
+    margin-bottom: 0; }
+  blockquote.is-large, blockquote.is-style-large,
+  q.is-large,
+  q.is-style-large,
+  blockquote.wp-block-quote.is-large,
+  blockquote.wp-block-quote.is-style-large {
+    margin: 0 auto; }
+
+/* Pull Quote
+--------------------------------------------- */
+.wp-block-pullquote {
+  border: none;
+  padding: 0; }
+  .wp-block-pullquote blockquote {
+    border-left: 0;
+    padding: 16px 0;
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto; }
+  .wp-block-pullquote.alignleft blockquote, .wp-block-pullquote.alignright blockquote {
+    max-width: 100%; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+/* Image Support
+--------------------------------------------- */
+.wp-block-image.size-medium img, .wp-block-image.size-thumbnail img, .wp-block-image.is-resized img {
+  width: auto; }
+
+.wp-block-image figcaption {
+  text-align: left;
+  padding: 10px 0; }
+
+figure {
+  max-width: 100%; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s; }
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  a:hover,
+  a a:active {
+    text-decoration: underline;
+    outline: 0; }
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
 
 
 /*# sourceMappingURL=editor.css.map*/

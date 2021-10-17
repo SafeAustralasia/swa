@@ -8,13 +8,19 @@
 <?php 
 $site_title = get_bloginfo( 'name' );
 $site_description = get_bloginfo( 'description' );
+
+$img[0] = 'iphone.jpg';
+$img[1] = 'industrial.jpg';
+$img[2] = 'fire.jpg';
+$img[3] = 'WorldSafe.jpg';
+$img[4] = 'security-lock.jpg';
 ?>	
 <!-- <div class="test">
 	<h1>Test</h1>
 </div> -->
 <div class="header-front-page-container overlay-black-400">
-	<!-- <img src="<?php echo ASM_ASSETS_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image"> -->
-	<img src="https://swa.asmather.com/wp-content/uploads/2021/09/cyber-security-2765707_1920.jpg" alt="mobile phone" class="static-header-image">
+	<!-- <img src="<?php echo ASM_BUILD_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image"> -->
+	<img src="<?php echo ASM_BUILD_URI ?>/img/<?php echo $img[rand(0,count($img) - 1)]; ?>" alt="mobile phone" class="static-header-image">
 	<div class="header-container content">
 		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
 		<div class="container text-container">
@@ -31,7 +37,7 @@ $site_description = get_bloginfo( 'description' );
 					<div class="col">
 						<div class="card" id="card1">
 							<div class="img-panel">
-								<img src="<?php echo ASM_ASSETS_URI ?>/images/banner/tester.jpg" alt="woman hat" class="card-image">
+								<img src="<?php echo ASM_BUILD_URI ?>/img/tester.jpg" alt="woman hat" class="card-image">
 								<div class="btn-container">
 										<?php std_button( "#", "Learn More", 'blue' ); ?>
 								</div>
@@ -46,7 +52,7 @@ $site_description = get_bloginfo( 'description' );
 					<div class="col">
 						<div class="card" id="card2">
 							<div class="img-panel">
-								<img src="<?php echo ASM_ASSETS_URI ?>/images/banner/cyber.jpg" alt="woman hat" class="card-image">
+								<img src="<?php echo ASM_BUILD_URI ?>/img/cyber.jpg" alt="woman hat" class="card-image">
 								<div class="btn-container">
 										<?php std_button( "#", "Learn More", 'blue' ); ?>
 								</div>
@@ -60,7 +66,7 @@ $site_description = get_bloginfo( 'description' );
 					<div class="col">
 						<div class="card" id="card3">
 							<div class="img-panel">
-								<img src="<?php echo ASM_ASSETS_URI ?>/images/banner/hard-hats.jpg" alt="woman hat" class="card-image">
+								<img src="<?php echo ASM_BUILD_URI ?>/img/exercise 800.jpg" alt="woman hat" class="card-image">
 								<div class="btn-container">
 									<?php std_button( "#", "Learn More", 'blue' ); ?>
 								</div>
@@ -74,7 +80,7 @@ $site_description = get_bloginfo( 'description' );
 			</div>
 		</div>
 		<div class="btn-container btn-hero-container">
-			<?php std_button( "#", "Join Now!", 'hero' ); ?>
+			<?php std_button( "" . get_site_url() . "/membership", "Join Now!", 'hero' ); ?>
 		</div>
 	</div>
 </div>

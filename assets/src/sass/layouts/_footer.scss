@@ -1,8 +1,8 @@
-.strip-bg, footer {
-    background-image: url('../img/soloman.jpg');
+.strip-bg {
+    background-image: url('../img/grey-img-bg.jpg');
 }
 footer {
-    background-color: $color-grey-700;
+    background-image: url('../img/soloman.jpg');
     padding: 2.75em 0 0 0;
     a {
         font-size: 1em;

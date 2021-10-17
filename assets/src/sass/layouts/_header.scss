@@ -29,6 +29,9 @@ header {
                         color:$color-white;
                         text-transform: uppercase;
                         font-size: 1.9em;
+                        @include respond-below(md) {
+                            font-size: 1.7em;
+                        }
                         opacity: 0;
                         animation: fadeInLeft 0.5s;
                         animation-fill-mode: forwards;

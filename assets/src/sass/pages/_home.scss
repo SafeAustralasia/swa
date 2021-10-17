@@ -1,3 +1,47 @@
 .home-strip {
     background-color: $color-grey-700;
 }
+
+.about-us-container {
+    justify-self: center;
+    max-width: $max-width;
+    padding: 2em 1em;
+    @include respond-below(md) {
+        padding: 0;
+    }
+}
+
+.goals-container {
+    display: flex;
+    //max-width: $max-width;
+    .col {
+        width: 50%;
+    }
+    .col-text {
+        div {
+            margin: 1.2em;
+            h2,p,li {
+                color: $color-white;
+            }
+            ul {
+                li {
+                    display: list-item;
+                    margin: .5em 0;
+                    // list-style-type: "🤯";
+                    // padding-inline-start: 1ch;
+                    list-style-image: url('../img/bullet-1.svg');
+                }
+            }
+        }
+    }
+    @include respond-below(md) {
+        flex-direction: column;
+        .col {
+            width: 100%;
+        }
+    }
+}
+
+.grey-img-bg {
+   background-image: url('../img/grey-img-bg.jpg');
+}

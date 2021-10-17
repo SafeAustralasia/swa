@@ -26,7 +26,7 @@ if ( ! defined( 'ASM_BUILD_JS_URI' ) ) {
 }
 
 if ( ! defined( 'ASM_BUILD_IMG_URI' ) ) {
-	define( 'ASM_BUILD_IMG_URI', untrailingslashit( get_template_directory_uri() ) . "/assets/build/src/img" );
+	define( 'ASM_BUILD_IMG_URI', untrailingslashit( get_template_directory_uri() ) . "/assets/build/img" );
 }
 
 if ( ! defined( 'ASM_BUILD_JS_DIR_PATH' ) ) {
