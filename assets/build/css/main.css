@@ -275,12 +275,29 @@ button {
     margin-left: calc(50% - 88px);
     margin-top: 4.5rem; }
 
-.test {
-  background-color: tint(#1D70A3, 80%); }
+.frm_form_fields .frm_form_field label {
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  text-transform: uppercase; }
 
-.frm_form_fields .frm_form_field input[type="text"], .frm_form_fields .frm_form_field input[type="email"], .frm_form_fields .frm_form_field textarea {
+.frm_form_fields .frm_form_field input[type="text"], .frm_form_fields .frm_form_field input[type="email"], .frm_form_fields .frm_form_field textarea, .frm_form_fields .frm_form_field select {
   border: 1px solid #1D70A3;
-  background-color: tint(#1D70A3, 80%); }
+  background-color: tint(#1D70A3, 80%);
+  border-radius: 0; }
+
+.frm_form_fields .frm_form_field p {
+  font-family: "Open Sans Condensed";
+  font-size: 1.2em;
+  padding-top: 1.5em;
+  color: #101820;
+  padding-bottom: .5em;
+  border-bottom: 1px solid tint(#101820, 60%);
+  margin-bottom: .2em;
+  text-transform: uppercase; }
+
+.frm_form_fields .separator {
+  border-bottom: 1px solid tint(#101820, 60%);
+  margin: .5em 0 1.8em; }
 
 .frm_form_fields .frm_primary_label {
   color: #1D70A3; }
@@ -1906,12 +1923,29 @@ button {
     margin-left: calc(50% - 88px);
     margin-top: 4.5rem; }
 
-.test {
-  background-color: #d2e2ed; }
+.frm_form_fields .frm_form_field label {
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  text-transform: uppercase; }
 
-.frm_form_fields .frm_form_field input[type="text"], .frm_form_fields .frm_form_field input[type="email"], .frm_form_fields .frm_form_field textarea {
+.frm_form_fields .frm_form_field input[type="text"], .frm_form_fields .frm_form_field input[type="email"], .frm_form_fields .frm_form_field textarea, .frm_form_fields .frm_form_field select {
   border: 1px solid #1D70A3;
-  background-color: #d2e2ed; }
+  background-color: #d2e2ed;
+  border-radius: 0; }
+
+.frm_form_fields .frm_form_field p {
+  font-family: "Open Sans Condensed";
+  font-size: 1.2em;
+  padding-top: 1.5em;
+  color: #101820;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #9fa3a6;
+  margin-bottom: .2em;
+  text-transform: uppercase; }
+
+.frm_form_fields .separator {
+  border-bottom: 1px solid #9fa3a6;
+  margin: .5em 0 1.8em; }
 
 .frm_form_fields .frm_primary_label {
   color: #1D70A3; }
