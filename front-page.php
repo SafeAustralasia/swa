@@ -56,11 +56,6 @@ get_header();
                 <li>Provide bursaries, gifts and other donations, other financial assistance and services in-kind to members of the public being Australian citizens or permanent residents to advance their education in the core subject areas of the Foundation.</li>
                 <li>Assisting Emergency Responders skill development</li>
             </ul>
-            <!-- <p>All courses sponsored are to be Australian educational institution in approved Australian courses, and/or at educational institutions overseas to study as a component of an approved Australian course</p>  -->
-            <p><?php // std_button( "#", "Learn More", 'blue' ); ?></p>
-            <!-- <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p> -->
         </div>
     </div>
 </div>
