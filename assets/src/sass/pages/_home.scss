@@ -11,20 +11,20 @@
         h2 {
             margin-bottom: .5em;
             position: relative;
-            line-height: 2em;
+            line-height: 2.5em;
         }
         h2:after {
             position: absolute;
             content: "";
             height: 4px;
-            width: 4em;
+            width: 2em;
             left: calc(50% - 2em);
             right: 0;
             background-color: $color-tertiary;
-            bottom: -4px;
+            bottom: 2px;
         }
         p:nth-child(2) {
-            margin-top: 5em;
+            margin-top: 4em;
             
         }
     }
@@ -33,21 +33,8 @@
     }
 }
 
-h2 {
-    margin-bottom: .5em;
-    position: relative;
-}
-h2:after {
-    position: absolute;
-    content: "";
-    height: 4px;
-    background-color: $color-tertiary;
-    bottom: -4px;
-}
-
 .goals-container {
     display: flex;
-    //max-width: $max-width;
     .col {
         width: 50%;
     }
@@ -80,11 +67,3 @@ h2:after {
    background-image: url('../img/grey-img-bg.jpg');
 }
 .test{margin-left:50px;animation:fadeInLeft 1.5s;animation-fill-mode:forwards}
-// .test {
-//     margin-left: 50px;
-//     animation: fadeInLeft 1.5s;
-//     animation-fill-mode: forwards;
-//     h2 {
-        
-//     }
-// }

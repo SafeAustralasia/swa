@@ -73,7 +73,7 @@ $img[4] = 'security-lock.jpg';
 						</div>
 						<div class="card-body">
 							<h4>Disaster Preparedness</h4>
-							<p class="card-text">Assisting countries to be ‘ready’ to handle disasters is part of our WorldSafe Institute. In collaboration with other non-profits, we will look at ways to practice drills that can advance resiliency. </p>
+							<p class="card-text">With the potential for natural hazard disasters and large scale emergencies ever present in our region, we aim to provide education in disaster preparedness and resilience for businesses and the wider community. </p>
 						</div>
 					</div>
 				</div>

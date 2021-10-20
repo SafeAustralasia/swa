@@ -85,10 +85,23 @@ header {
                                 }
                             }
                             h4 {
+                                position: relative;
                                 text-transform: uppercase;
+                                line-height: 2.5em;
+                                margin-bottom: 1em;
+                            }
+                            h4:after {
+                                position: absolute;
+                                content: "";
+                                height: 4px;
+                                width: 2em;
+                                left: 0;
+                                right: 0;
+                                background-color: $color-tertiary;
+                                bottom: -2px;
                             }
                             .card-body {
-                                height: 15em;
+                                height: 15.5em;
                             }
                         }
 
