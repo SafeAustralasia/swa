@@ -5,9 +5,16 @@
 .about-us-container {
     justify-self: center;
     max-width: $max-width;
-    padding: 2em 1em;
-    h2 {
-        margin-bottom: .5em;
+    width: 75%;
+    padding: 5em 4em 7em 4em;
+    .about-us-text {
+        h2 {
+            margin-bottom: .5em;
+        }
+        p:nth-child(2) {
+            margin-top: 5em;
+            
+        }
     }
     @include respond-below(md) {
         padding: 0;

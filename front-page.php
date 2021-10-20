@@ -10,13 +10,13 @@ get_header();
 <div class="height-30em strip-bg"></div> 
 <div class="container about-us-container">
     <div class="row">
-        <div class="col-12">
+        <div class="col-12 about-us-text">
             <!-- wp:heading -->
             <h2 class="text-center sub-heading">About Us</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
-            <p>The SafeAustralasia Foundation is a not-for-profit registered charity based in Australia seeking to support a number of initiatives as per <a>our goals.</a><a href="#_msocom_1">[HW1]</a>&nbsp;</p>
+            <p>The SafeAustralasia Foundation is a not-for-profit registered charity based in Australia seeking to support a number of initiatives as per our goals.</p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph -->

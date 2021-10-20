@@ -1,5 +1,7 @@
 <div class="header-page-container overlay-black-400">
-	<img src="<?php echo ASM_ASSETS_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image">
+	<?php if( has_post_thumbnail() ) : ?>
+		<?php the_post_thumbnail( 'full' ); ?>
+	<?php endif ?>
 	<div class="header-container">
 		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
 		<!-- <div class="container text-container align-items-center"> -->
