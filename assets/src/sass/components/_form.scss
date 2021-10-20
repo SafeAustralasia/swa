@@ -1,3 +1,17 @@
 .test {
     background-color: $color-primary-300;
 }
+
+// Formidable form styling
+.frm_form_fields {
+    .frm_form_field {
+        input[type="text"], input[type="email"], textarea {
+            border: 1px solid $color-primary;
+            background-color: $color-primary-300;
+        }
+    }
+    .frm_primary_label {
+        color: $color-primary;
+    }
+}
+

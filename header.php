@@ -23,7 +23,7 @@
 <header id="masthead" class="site-header" role="banner">
 	<?php //get_template_part('template-parts/nav/nav','top-bar'); ?>    
 	<?php if (is_front_page()) : ?>		
-		<?php get_template_part('template-parts/header/header','panels'); ?>    
+		<?php get_template_part('template-parts/header/header','panels-slider'); ?>    
 		<!-- <div class="home-page-title">
 			<?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?>
 		</div> -->

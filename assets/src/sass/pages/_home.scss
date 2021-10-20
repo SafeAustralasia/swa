@@ -6,6 +6,9 @@
     justify-self: center;
     max-width: $max-width;
     padding: 2em 1em;
+    h2 {
+        margin-bottom: .5em;
+    }
     @include respond-below(md) {
         padding: 0;
     }
@@ -45,3 +48,12 @@
 .grey-img-bg {
    background-image: url('../img/grey-img-bg.jpg');
 }
+.test{margin-left:50px;animation:fadeInLeft 1.5s;animation-fill-mode:forwards}
+// .test {
+//     margin-left: 50px;
+//     animation: fadeInLeft 1.5s;
+//     animation-fill-mode: forwards;
+//     h2 {
+        
+//     }
+// }

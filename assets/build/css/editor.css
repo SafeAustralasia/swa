@@ -268,13 +268,22 @@ button {
     .btn-grey.learn-more .button-text:hover {
       color: #fff; }
 
-.btn-hero-container button {
-  margin: auto;
-  margin-left: calc(50% - 88px);
-  margin-top: 4.5rem; }
+.btn-hero-container {
+  animation: fadeInBottom 1s; }
+  .btn-hero-container button {
+    margin: auto;
+    margin-left: calc(50% - 88px);
+    margin-top: 4.5rem; }
 
 .test {
   background-color: tint(#1D70A3, 80%); }
+
+.frm_form_fields .frm_form_field input[type="text"], .frm_form_fields .frm_form_field input[type="email"], .frm_form_fields .frm_form_field textarea {
+  border: 1px solid #1D70A3;
+  background-color: tint(#1D70A3, 80%); }
+
+.frm_form_fields .frm_primary_label {
+  color: #1D70A3; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -623,6 +632,12 @@ h3 {
 
 h4 {
   font-size: 1.2em; }
+
+.sub-heading {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center; }
 
 hr {
   background-color: #fff;

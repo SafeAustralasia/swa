@@ -67,3 +67,24 @@ h3 {
 h4 {
     font-size: 1.2em;
 }
+
+.sub-heading {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    //margin: 0 1rem;
+    //transform: translate(-6.2rem, 1.2rem);
+}
+
+// .sub-heading::after {
+//     position: absolute;
+//     display: block;
+//     background-color: $color-tertiary;
+//     content: "";
+//     width: 40px;
+//     height: 3px;
+//     left: 0;
+//     top: 1.4em;
+//     transform: translateX(50%)
+// }

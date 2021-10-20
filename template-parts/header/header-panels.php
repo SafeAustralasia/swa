@@ -15,9 +15,6 @@ $img[2] = 'fire.jpg';
 $img[3] = 'WorldSafe.jpg';
 $img[4] = 'security-lock.jpg';
 ?>	
-<!-- <div class="test">
-	<h1>Test</h1>
-</div> -->
 <div class="header-front-page-container overlay-black-400">
 	<!-- <img src="<?php echo ASM_BUILD_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image"> -->
 	<img src="<?php echo ASM_BUILD_URI ?>/img/<?php echo $img[rand(0,count($img) - 1)]; ?>" alt="mobile phone" class="static-header-image">

@@ -12,7 +12,7 @@ get_header();
     <div class="row">
         <div class="col-12">
             <!-- wp:heading -->
-            <h2 class="text-center">About Us</h2>
+            <h2 class="text-center sub-heading">About Us</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->
@@ -57,6 +57,10 @@ get_header();
                 <li>Assisting Emergency Responders skill development</li>
             </ul>
             <!-- <p>All courses sponsored are to be Australian educational institution in approved Australian courses, and/or at educational institutions overseas to study as a component of an approved Australian course</p>  -->
+            <p><?php // std_button( "#", "Learn More", 'blue' ); ?></p>
+            <!-- <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p> -->
         </div>
     </div>
 </div>
