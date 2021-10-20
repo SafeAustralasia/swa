@@ -2041,12 +2041,34 @@ button {
   width: 75%;
   padding: 5em 4em 7em 4em; }
   .about-us-container .about-us-text h2 {
-    margin-bottom: .5em; }
+    margin-bottom: .5em;
+    position: relative;
+    line-height: 2em; }
+  .about-us-container .about-us-text h2:after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 4em;
+    left: calc(50% - 2em);
+    right: 0;
+    background-color: #89CF34;
+    bottom: -4px; }
   .about-us-container .about-us-text p:nth-child(2) {
     margin-top: 5em; }
   @media (max-width: 991px) {
     .about-us-container {
       padding: 0; } }
+
+h2 {
+  margin-bottom: .5em;
+  position: relative; }
+
+h2:after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: #89CF34;
+  bottom: -4px; }
 
 .goals-container {
   display: flex; }
