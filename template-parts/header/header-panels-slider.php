@@ -38,11 +38,11 @@ $img[4] = 'security-lock.jpg';
 						<div class="img-panel">
 							<img src="<?php echo ASM_BUILD_URI ?>/img/tester.jpg" alt="woman hat" class="card-image">
 							<div class="btn-container">
-									<?php std_button( "#", "Learn More", 'blue' ); ?>
+									<?php std_button( "" . get_site_url() . "/how-we-help/#community_safety", "Learn More", 'blue' ); ?>
 							</div>
 						</div>
 						<div class="card-body">
-							<h4>Community Safety</h4>
+							<h3>Community Safety</h4>
 							<p class="card-text">Working with first responder agencies and large, medium and small companies, the SafeAustralasia Foundation facilitate education and an open environment, where leaders and emerging leaders in all sectors can develop their skills and knowledge to protect our community safety.</p>
 						</div>
 					</div>
@@ -53,11 +53,11 @@ $img[4] = 'security-lock.jpg';
 						<div class="img-panel">
 							<img src="<?php echo ASM_BUILD_URI ?>/img/cyber.jpg" alt="woman hat" class="card-image">
 							<div class="btn-container">
-									<?php std_button( "#", "Learn More", 'blue' ); ?>
+									<?php std_button( "" . get_site_url() . "/how-we-help/#cyber_security", "Learn More", 'blue' ); ?>
 							</div>
 						</div>
 						<div class="card-body">
-							<h4>Cyber Security</h4>
+							<h3>Cyber Security</h3>
 							<p class="card-text">Cyber security awareness and safety is vital for all organisations.  In conjunction with our partner organisations and subject experts, we will continue to deliver education and skills in the latest counter measures </p>
 						</div>
 					</div>
@@ -68,11 +68,11 @@ $img[4] = 'security-lock.jpg';
 						<div class="img-panel">
 							<img src="<?php echo ASM_BUILD_URI ?>/img/exercise 800.jpg" alt="woman hat" class="card-image">
 							<div class="btn-container">
-								<?php std_button( "#", "Learn More", 'blue' ); ?>
+								<?php std_button( "" . get_site_url() . "/how-we-help/#disaster_preparedness", "Learn More", 'blue' ); ?>
 							</div>
 						</div>
 						<div class="card-body">
-							<h4>Disaster Preparedness</h4>
+							<h3>Disaster Preparedness</h3>
 							<p class="card-text">With the potential for natural hazard disasters and large scale emergencies ever present in our region, we aim to provide education in disaster preparedness and resilience for businesses and the wider community. </p>
 						</div>
 					</div>
