@@ -16,7 +16,6 @@ $img[3] = 'WorldSafe.jpg';
 $img[4] = 'security-lock.jpg';
 ?>	
 <div class="header-front-page-container overlay-black-400">
-	<!-- <img src="<?php echo ASM_BUILD_URI ?>/images/banner/Exercise.jpg" alt="woman hat" class="static-header-image"> -->
 	<img src="<?php echo ASM_BUILD_URI ?>/img/<?php echo $img[rand(0,count($img) - 1)]; ?>" alt="mobile phone" class="static-header-image">
 	<div class="header-container content">
 		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
@@ -43,7 +42,7 @@ $img[4] = 'security-lock.jpg';
 						</div>
 						<div class="card-body">
 							<h3>Community Safety</h4>
-							<p class="card-text">Working with first responder agencies and large, medium and small companies, the SafeAustralasia Foundation facilitate education and an open environment, where leaders and emerging leaders in all sectors can develop their skills and knowledge to protect our community safety.</p>
+							<p class="card-text">Working with first responder agencies and large, medium and small companies, the SafeAustralasia Foundation facilitate education and an open environment, where leaders and emerging leaders in all sectors can develop their skills.</p>
 						</div>
 					</div>
 				</div>
@@ -81,7 +80,7 @@ $img[4] = 'security-lock.jpg';
 			</div>
 		</div>
 		<div class="btn-container btn-hero-container">
-			<?php std_button( "" . get_site_url() . "/membership", "Join Now!", 'hero' ); ?>
+			<?php std_button( "" . get_site_url() . "/donate", "Donate", 'hero' ); ?>
 		</div>
 	</div>
 </div>

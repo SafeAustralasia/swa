@@ -86,4 +86,15 @@
             height: 6.5em;
         }
     }
+    .icon-group-text {
+        height: 9rem;
+        @include respond-between(sm,md) {
+            height: 12rem;
+        }
+    }
+    .btn-icon-group {
+        @include respond-below(sm) {
+            margin-bottom: 2em;
+        }
+    } 
 }

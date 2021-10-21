@@ -11,7 +11,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 
 $current_page_title = single_post_title( '', false );
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
+<nav class="navbar navbar-expand-lg navbar-light bg-light main-nav nav-set-100">
 
   <?php 
     if( function_exists( 'the_custom_logo' ) ) {

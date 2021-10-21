@@ -15,4 +15,11 @@ import '../sass/main.scss';
         $(".strip-bg").css("height", containerHeight + "px");
     });
 })(jQuery)
- 
+
+// $(window).scroll(function(){
+//     if ($(this).scrollTop() > 150) {
+//        $('#dynamic').addClass('newClass');
+//     } else {
+//        $('#dynamic').removeClass('newClass');
+//     }
+// });

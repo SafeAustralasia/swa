@@ -1,1 +1,1 @@
-export default "../../src/library/fonts/open-sans-condensed-v15-latin/open-sans-condensed-v15-latin-700.svg";
+export default "../src/library/fonts/open-sans-condensed-v15-latin/open-sans-condensed-v15-latin-700.svg";
