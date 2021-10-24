@@ -115,6 +115,8 @@ class ASM_THEME {
 
 		add_editor_style( 'assets/build/css/editor.css' );
 
+		//remove_theme_support('core-block-patterns');
+
 		// sets maximum content width
 		global $content_width;
 		if( ! isset( $content_width ) ) {
@@ -123,7 +125,6 @@ class ASM_THEME {
 
 
 	}
-
 
 }
 

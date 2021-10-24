@@ -28,38 +28,37 @@ class Block_Patterns {
 	}
 
 	public function register_block_patterns() {
+
 		if ( function_exists( 'register_block_pattern' ) ) {
 
 			/**
-			 * Cover Pattern
+			 * Two column content
 			 */
-			$cover_content = $this->get_pattern_content( 'template-parts/patterns/cover' );
+			$two_column_content = $this->get_pattern_content( 'template-parts/patterns/test-three-columns' );
 
 			register_block_pattern(
-				'asm/cover',
+				'asm/test-three-columns',
 				[
-					'title' => __( 'ASM Cover', 'asm' ),
-					'description' => __( 'ASM Cover Block with image and text', 'asm' ),
-					'categories' => [ 'cover' ],
-					'content' => $cover_content,
-				]
-			);
-
-			/**
-			 * Two Column Pattern
-			 */
-			$two_columns_content = $this->get_pattern_content( 'template-parts/patterns/two-columns' );
-
-			register_block_pattern(
-				'asm/two-columns',
-				[
-					'title' => __( 'ASM Two Column', 'asm' ),
-					'description' => __( 'ASM two columns with heading and text', 'asm' ),
+					'title' => __( 'Test Three Columns', 'asm' ),
+					'description' => __( 'Test Three Columns', 'asm' ),
 					'categories' => [ 'columns' ],
-					'content' => $two_columns_content,
+					'content' => $two_column_content,
 				]
 			);
+
+			$this->unregister_block_patterns( 'test-columns' );
+
 		}
+	}
+
+	public function unregister_block_patterns( $block_pattern ) {
+
+		if ( function_exists( 'unregister_block_pattern' ) ) { 
+
+			unregister_block_pattern( "asm/" . $block_pattern . "" );
+
+		}
+
 	}
 
 	public function get_pattern_content( $template_path ) {
@@ -79,7 +78,10 @@ class Block_Patterns {
 
 		$pattern_categories = [
 			'cover' => __( 'Cover', 'asm' ),
+			'panels' => __( 'Panels', 'asm' ),
 			'columns' => __( 'Columns', 'asm' ),
+			'card' => __( 'Cards', 'asm' ),
+			'buttons' => __( 'Buttons', 'asm' )
 		];
 
 		if ( ! empty( $pattern_categories ) && is_array( $pattern_categories ) ) {

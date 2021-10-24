@@ -5,7 +5,7 @@
 	<div class="header-container">
 		<?php get_template_part('template-parts/nav/nav','main'); ?>    					
 		<!-- <div class="container text-container align-items-center"> -->
-      <h1><?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?></h1>	
+      <h1 class="page-heading"><?php is_home() && ! is_front_page() ? single_post_title() : the_title() ?></h1>	
 		<!-- </div> -->
 	</div>
 	<!-- <div class="header-strip height-10em">

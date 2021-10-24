@@ -6,7 +6,7 @@
             font-weight: bold;
             text-transform: uppercase;
         }
-        input[type="text"], input[type="email"], textarea, select {
+        input[type="text"], input[type="email"], input[type="tel"], textarea, select {
             border: 1px solid $color-primary;
             background-color: $color-primary-200;
             border-radius: 0;
