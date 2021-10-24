@@ -22,7 +22,7 @@ get_header();
         <?php endif; ?>
         <div class="blog-header">
 
-          <?php the_title( '<h1>', '</h1>' ); ?>
+          <?php // the_title( '<h1>', '</h1>' ); ?>
 
         </div>
         <?php the_content(); ?>

@@ -1,5 +1,40 @@
 .hwh-container {
-    border: 1px solid #ccc;
-    box-shadow: 5px 2px #888888;
+    //border: 1px solid #ccc;
+    //box-shadow: 5px 2px #888888;
     display: flex;
+    @include respond-below(sm) {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+
+    .wp-block-columns {
+        margin-bottom: 0;
+        figure {
+            img {
+                object-fit: cover;
+            }
+        }
+        .wp-block-column {
+            hr {
+                background-color: $color-tertiary;
+                height: 4px;
+                border: none;
+                width: 5%;
+                margin-left: 0;
+            }
+            &:last-child {
+                
+            }
+            h2 {
+                @include respond-below(sm) {
+                    margin-top: 1em;
+                    margin-bottom: .5em;
+                }
+            }
+        }
+    }
+
+    .wp-block-image {
+        margin: 0;
+    }
 }

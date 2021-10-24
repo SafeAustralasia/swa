@@ -7,26 +7,31 @@
     max-width: $max-width;
     //width: 75%;
     padding: 6em 4em 6em 4em;
-    .about-us-text {
-        h2 {
-            margin-bottom: .5em;
-            position: relative;
-            line-height: 2.5em;
+    .row {
+        @include respond-below(md) {
+            padding: 1em;
         }
-        h2:after {
-            position: absolute;
-            content: "";
-            height: 4px;
-            width: 4em;
-            left: calc(50% - 2em);
-            right: 0;
-            background-color: $color-tertiary;
-            bottom: 2px;
+        .about-us-text {
+            h2 {
+                margin-bottom: .5em;
+                position: relative;
+                line-height: 2.5em;
+            }
+            h2:after {
+                position: absolute;
+                content: "";
+                height: 4px;
+                width: 4em;
+                left: calc(50% - 2em);
+                right: 0;
+                background-color: $color-tertiary;
+                bottom: 2px;
+            }
+            // p:nth-child(2) {
+            //     margin-top: 4em;
+                
+            // }
         }
-        // p:nth-child(2) {
-        //     margin-top: 4em;
-            
-        // }
     }
     @include respond-below(md) {
         padding: 0;

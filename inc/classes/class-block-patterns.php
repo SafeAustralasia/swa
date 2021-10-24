@@ -32,21 +32,21 @@ class Block_Patterns {
 		if ( function_exists( 'register_block_pattern' ) ) {
 
 			/**
-			 * Two column content
+			 * Image / heading and text container
 			 */
-			$two_column_content = $this->get_pattern_content( 'template-parts/patterns/test-three-columns' );
+			$image_text_content = $this->get_pattern_content( 'template-parts/patterns/image_text_container' );
 
 			register_block_pattern(
-				'asm/test-three-columns',
+				'asm/image_text_container',
 				[
-					'title' => __( 'Test Three Columns', 'asm' ),
-					'description' => __( 'Test Three Columns', 'asm' ),
+					'title' => __( 'Image and Text container', 'asm' ),
+					'description' => __( 'Image and text container with heading for text', 'asm' ),
 					'categories' => [ 'columns' ],
-					'content' => $two_column_content,
+					'content' => $image_text_content,
 				]
 			);
 
-			$this->unregister_block_patterns( 'test-columns' );
+			//$this->unregister_block_patterns( 'image_text_container' );
 
 		}
 	}
@@ -54,7 +54,7 @@ class Block_Patterns {
 	public function unregister_block_patterns( $block_pattern ) {
 
 		if ( function_exists( 'unregister_block_pattern' ) ) { 
-
+//
 			unregister_block_pattern( "asm/" . $block_pattern . "" );
 
 		}

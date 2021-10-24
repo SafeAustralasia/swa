@@ -10,7 +10,7 @@ get_header();
 <div class="height-30em strip-bg"></div> 
 <div class="container about-us-container">
     <div class="row">
-        <div class="col-6 about-us-text">
+        <div class="col-md-6 col-sm-12 about-us-text">
             <!-- wp:heading -->
             <h2 class="text-center sub-heading">About Us</h2>
             <!-- /wp:heading -->
@@ -31,7 +31,7 @@ get_header();
             <p>For more information about the SafeAmerica Foundation see <a target="blank" href="https://safeamerica.org/"><em>www.safeamerica.org</em></a></p>
             <!-- /wp:paragraph -->
         </div>
-        <div class="col-6">
+        <div class="col-md-6 col-sm-12">
             <img src="<?php echo ASM_BUILD_IMG_URI ?>/Harold Len and Sec Norm Manetta.jpg"/>
         </div>
     </div>
