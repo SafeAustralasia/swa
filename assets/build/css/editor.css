@@ -646,8 +646,20 @@ h1, .page-heading {
   font-weight: 800; }
 
 h2 {
+  margin-bottom: .5em;
+  position: relative;
   font-size: 1.45em;
-  line-height: 1.2em; }
+  line-height: 2.5em; }
+
+h2:after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 2em;
+  left: 0;
+  right: 0;
+  background-color: #89CF34;
+  bottom: 2px; }
 
 h3 {
   font-size: 1.2em; }
@@ -659,7 +671,7 @@ h4 {
   display: block;
   position: relative;
   width: 100%;
-  text-align: center; }
+  text-align: left; }
 
 /*------------------------
 		Navigation

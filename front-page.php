@@ -12,7 +12,7 @@ get_header();
     <div class="row">
         <div class="col-md-6 col-sm-12 about-us-text">
             <!-- wp:heading -->
-            <h2 class="text-center sub-heading">About Us</h2>
+            <h2 class="sub-heading">About Us</h2>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph -->

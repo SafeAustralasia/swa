@@ -32,6 +32,9 @@ header {
                         @include respond-below(md) {
                             font-size: 1.7em;
                         }
+                        @include respond-below(sm) {
+                            font-size: 1.6em;
+                        }
                         opacity: 0;
                         animation: fadeInLeft 0.5s;
                         animation-fill-mode: forwards;
@@ -118,6 +121,9 @@ header {
                             }
                             .card-body {
                                 height: 14em;
+                                @include respond-between(md, lg) {
+                                    height: 15em;
+                                }
                             }
                         }
 
