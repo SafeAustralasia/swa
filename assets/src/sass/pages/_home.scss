@@ -14,12 +14,11 @@
         .about-us-text {
             height: 100%;
             padding: 1em 1.5em;
-            //border-radius: $border-radius;
+            border-radius: $border-radius;
             box-shadow: $box-shadow;
-            background-color: $color-grey-50;
+            background-color: $text-box-bg;
         }
         .about-us-card > img {
-            //border-radius: $border-radius;
             box-shadow: $box-shadow;
         }
     }

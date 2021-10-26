@@ -3,7 +3,7 @@
     .row:first-child {
         margin-left: .1em; margin-right: .1em;
         .footer-icon-title {
-            background-color: $ways-you-can-help-bg;
+            background-color: $text-box-bg;
             margin-bottom: 1.2em;
             padding:0;
             box-shadow: $box-shadow;
@@ -12,7 +12,7 @@
     }
     .footer-icon-card {
         margin: auto;
-        background-color: $ways-you-can-help-bg;
+        background-color: $text-box-bg;
         padding: 2em 1.2em 2em 1.2em;
         box-shadow: $box-shadow;
         border-radius: $border-radius;

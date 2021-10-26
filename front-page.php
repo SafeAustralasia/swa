@@ -49,11 +49,14 @@ get_header();
             <h2>Our Goals</h2>
             <p>Our goal is to build an ‘Alliance’ of organisations and other non-profits that can:</p>
             <ul>
-                <li>Community Safety</li>
-                <li>Cyber Security</li>
-                <li>Disaster Preparedness</li>
-                <li>Community and Business Resilience to Disaster</li>
-                <li>Emergency Management within Industry</li>
+                <li>Advance education and increase awareness in safety, with a focus on the people of Australia and the Australasian region, through a series of initiatives in (but not limited to) the following areas:</li>
+                <ul>
+                    <li>Community Safety</li>
+                    <li>Cyber Security</li>
+                    <li>Disaster Preparedness</li>
+                    <li>Community and Business Resilience to Disaster</li>
+                    <li>Emergency Management within Industry</li>
+                </ul>
             </ul> 
             <p>Educational activities include approaches in</p>       
             <ul>

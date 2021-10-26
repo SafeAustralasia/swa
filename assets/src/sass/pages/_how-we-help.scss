@@ -1,6 +1,4 @@
 .hwh-container {
-    //border: 1px solid #ccc;
-    //box-shadow: 5px 2px #888888;
     display: flex;
     @include respond-below(sm) {
         padding-right: 1em;
@@ -17,9 +15,8 @@
         }
         .wp-block-column {
             box-shadow: $box-shadow;
-            background-color: $color-grey-50;
+            background-color: $text-box-bg;
             h2 {
-                //margin-top: -16px !important;
                 padding-top: 0 !important;
             }
             hr {
@@ -30,7 +27,7 @@
                 margin-left: 0;
             }
             &:last-child {
-                //margin: ;
+                
             }
             h2 {
                 padding: 0 1em;
