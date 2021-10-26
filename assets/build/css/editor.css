@@ -661,6 +661,12 @@ h2:after {
   background-color: #89CF34;
   bottom: 2px; }
 
+.wp-block-column h2:after {
+  left: 1em; }
+
+.footer-heading:after {
+  left: calc(50% - 4em); }
+
 h3 {
   font-size: 1.2em; }
 

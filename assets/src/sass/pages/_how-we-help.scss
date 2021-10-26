@@ -8,13 +8,20 @@
     }
 
     .wp-block-columns {
-        margin-bottom: 0;
+        //margin-bottom: 0;
         figure {
             img {
+                box-shadow: $box-shadow;
                 object-fit: cover;
             }
         }
         .wp-block-column {
+            box-shadow: $box-shadow;
+            background-color: $color-grey-50;
+            h2 {
+                //margin-top: -16px !important;
+                padding-top: 0 !important;
+            }
             hr {
                 background-color: $color-tertiary;
                 height: 4px;
@@ -23,13 +30,17 @@
                 margin-left: 0;
             }
             &:last-child {
-                
+                //margin: ;
             }
             h2 {
+                padding: 0 1em;
                 @include respond-below(sm) {
                     margin-top: 1em;
                     margin-bottom: .5em;
                 }
+            }
+            p {
+                padding: 0 1.6em;
             }
         }
     }

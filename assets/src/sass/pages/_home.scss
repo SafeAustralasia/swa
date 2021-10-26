@@ -12,7 +12,15 @@
             padding: 1em;
         }
         .about-us-text {
-
+            height: 100%;
+            padding: 1em 1.5em;
+            //border-radius: $border-radius;
+            box-shadow: $box-shadow;
+            background-color: $color-grey-50;
+        }
+        .about-us-card > img {
+            //border-radius: $border-radius;
+            box-shadow: $box-shadow;
         }
     }
     @include respond-below(md) {
@@ -22,18 +30,17 @@
 
 .goals-container {
     display: flex;
-    margin-bottom: 6em;
+    //margin-bottom: 6em;
     .col-image {
         width: 50%;
         background-image: url('../img/goal-arrow-800.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-       
     }
     .col-text {
         div {
-            margin: 2.5em;
+            margin: 1em 2.5em 2.5em 2.5em;
             h2,p,li {
                 color: $color-white;
             }

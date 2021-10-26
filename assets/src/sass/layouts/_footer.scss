@@ -1,3 +1,56 @@
+.footer-icon-container {
+    background-color: $color-white;
+    .row:first-child {
+        margin-left: .1em; margin-right: .1em;
+        .footer-icon-title {
+            background-color: $ways-you-can-help-bg;
+            margin-bottom: 1.2em;
+            padding:0;
+            box-shadow: $box-shadow;
+            border-radius: $border-radius;
+        }
+    }
+    .footer-icon-card {
+        margin: auto;
+        background-color: $ways-you-can-help-bg;
+        padding: 2em 1.2em 2em 1.2em;
+        box-shadow: $box-shadow;
+        border-radius: $border-radius;
+        @include respond-below(md) {
+            margin-bottom: 1em;
+            &:not(:last-child) {
+                
+                background-color: red;
+            }
+        }
+    }
+    .help-icons {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        max-width: $max-width;
+        [class^="col-"],
+        [class*=" col-"] {
+            margin: 2em inherit;
+            svg {
+                fill:$color-primary;
+                width: 6.5em;
+                height: 6.5em;
+            }
+        }
+        .icon-group-text {
+            height: 9rem;
+            @include respond-between(sm,md) {
+                height: 12rem;
+            }
+        }
+        .btn-icon-group {
+            @include respond-below(sm) {
+                margin-bottom: 2em;
+            }
+        } 
+    }
+}
+
 .strip-bg {
     background-image: url('../img/grey-img-bg.jpg');
 }

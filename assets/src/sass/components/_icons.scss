@@ -73,28 +73,3 @@
     }
 
 }
-
-.help-icons {
-    margin-top: 3em;
-    max-width: $max-width;
-    [class^="col-"],
-    [class*=" col-"] {
-        margin: 2em inherit;
-        svg {
-            fill:$color-primary;
-            width: 6.5em;
-            height: 6.5em;
-        }
-    }
-    .icon-group-text {
-        height: 9rem;
-        @include respond-between(sm,md) {
-            height: 12rem;
-        }
-    }
-    .btn-icon-group {
-        @include respond-below(sm) {
-            margin-bottom: 2em;
-        }
-    } 
-}

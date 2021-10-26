@@ -56,11 +56,18 @@ h2:after {
     content: "";
     height: 4px;
     width: 2em;
-    //left: calc(50% - 2em);
     left: 0;
     right: 0;
     background-color: $color-tertiary;
     bottom: 2px;
+}
+.wp-block-column {
+    h2:after {
+        left: 1em;
+    }    
+}
+.footer-heading:after {
+    left: calc(50% - 4em);
 }
 
 h3 {
