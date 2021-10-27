@@ -5,11 +5,11 @@
  * @package asm
  */
 ?>
-<div class="text-center pt-5 pb-5 footer-icon-container">
+<div class="text-center pt-5 pb-5 page-container">
     <div class="container help-icons">
         <div class="row">
             <div class="footer-icon-title">
-                <h2 class="footer-heading">Ways You Can Help</h2>
+                <h2 class="footer-icon-heading">Ways You Can Help</h2>
                 <p>The Safe Australasia Foundation Provides a Variety of Programs and Services to Help Keep Us Safe!</p>
             </div>
         </div>

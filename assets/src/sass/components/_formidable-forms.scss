@@ -1,0 +1,43 @@
+.frm_forms {
+    padding: 2em;
+    background-color: $color-grey-50;
+    box-shadow: $box-shadow;
+    .frm_form_fields {
+        .frm_form_field {
+            label {
+                font-family: "Open Sans Condensed";
+                font-weight: bold;
+                text-transform: uppercase;
+                color: $color-grey;
+                font-size: 1em;
+            }
+            input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+                border: 1px solid $color-grey-500;
+                background-color: $color-grey-200;
+                border-radius: 0;
+            }
+            select {
+                option:hover {
+                    //background-color: red;
+                }
+            }
+            p {
+                font-family: "Open Sans Condensed";
+                font-size: 1.2em;
+                padding-top: 1.5em;
+                color: $color-grey;
+                padding-bottom: .5em;
+                border-bottom: 1px solid $color-grey-400;
+                margin-bottom: .2em;
+                text-transform: uppercase;
+            }
+        }
+        .separator {
+            border-bottom: 1px solid $color-grey-400;
+            margin: .5em 0 1.8em;
+        }
+        .frm_primary_label {
+            color: $color-primary;
+        }
+    }
+}

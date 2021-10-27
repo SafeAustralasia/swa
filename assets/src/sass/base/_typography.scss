@@ -40,11 +40,6 @@ h1, .page-heading {
     font-family: Raleway;
     font-weight: 800;
 }
-// h2 {
-//     font-size: 1.45em;
-//     line-height: 1.2em;
-// }
-
 h2 {
     margin-bottom: .5em;
     position: relative;
@@ -66,7 +61,7 @@ h2:after {
         left: 1em;
     }    
 }
-.footer-heading:after {
+.footer-icon-heading:after {
     left: calc(50% - 4em);
 }
 
@@ -84,6 +79,30 @@ h4 {
     text-align: left;
 }
 
+footer {
+    .wp-block-column {
+        h2:after {
+            position: absolute;
+            content: "";
+            height: 4px;
+            width: 2em;
+            left: 0;
+            right: 0;
+            background-color: $color-tertiary;
+            bottom: 2px;
+        }
+    }
+}
+.footer-heading:after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 2em;
+    left: 20;
+    right: 0;
+    background-color: $color-tertiary;
+    bottom: 2px;
+}
 /*------------------------
 		Navigation
 --------------------------*/

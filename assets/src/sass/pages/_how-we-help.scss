@@ -1,9 +1,9 @@
 .hwh-container {
     display: flex;
-    @include respond-below(sm) {
-        padding-right: 1em;
-        padding-left: 1em;
-    }
+    // @include respond-below(sm) {
+    //     padding-right: 1em;
+    //     padding-left: 1em;
+    // }
 
     .wp-block-columns {
         //margin-bottom: 0;

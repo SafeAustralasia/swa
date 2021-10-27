@@ -5,3 +5,42 @@
         
     }
 }
+
+.pttn-container {
+    background-color: $color-grey-50;
+    box-shadow: $box-shadow;
+    padding: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    .wp-block-column {
+        @include respond-below(sm) {
+            margin-right: var(--bs-gutter-x,.75rem);
+            margin-left: var(--bs-gutter-x,.75rem);
+        }
+        p {
+            margin-bottom: 1em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.pttn-charity-two-columns {
+    background-color: $color-grey-50;
+    box-shadow: $box-shadow;
+    margin-bottom: 0;
+    .wp-block-column {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        .img-spacing {
+            margin: 1em;
+        }
+        // .wp-block-image {
+        //     margin-bottom: 0;
+        // }
+        &:first-child {
+           
+        }
+    }
+}

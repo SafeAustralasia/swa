@@ -48,6 +48,21 @@ class Block_Patterns {
 
 			//$this->unregister_block_patterns( 'image_text_container' );
 
+			/**
+			 * Single paragraph, single column
+			 */
+			$single_paragraph_single_column = $this->get_pattern_content('template-parts/patterns/paragraph_single_column');
+
+			register_block_pattern(
+				'asm/single_paragraph_single_column',
+				[
+					'title' => __( 'Single Paragraph, Single Column', 'asm' ),
+					'description' => __( 'Single paragraph and single column', 'asm' ),
+					'categories' => [ 'columns' ],
+					'content' => $single_paragraph_single_column,
+				]
+			);
+
 		}
 	}
 

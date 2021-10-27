@@ -164,14 +164,14 @@ button {
 }
 
 .btn-grey {
-  background-color: tint($color-grey,50%);
+  background-color: $color-grey-400;
   border: 1px solid $color-grey;
   &.learn-more {
     .square {
-      background-color: tint($color-grey,40%);
+      background-color: $color-grey-600;
     }
     .button-text {
-      color: $color-grey;
+      color: $color-white;
       &:hover {
         color: $color-white;
       }

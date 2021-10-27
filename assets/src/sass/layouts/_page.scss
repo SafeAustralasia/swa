@@ -3,9 +3,9 @@
 }
 
 .page-main {
-    margin-top: 2em;
+    max-width: $max-width !important;
+    margin: 2em auto 0em auto;
     .row {
-        max-width: $max-width !important;
         //margin-left: .95rem;
         .page-column {
             background-color: $color-white;
