@@ -1,4 +1,5 @@
 header { 
+    //border: 1px solid #000;
     // front page styles
     .header-front-page-container {
         max-width: 100%;
@@ -31,6 +32,9 @@ header {
                         font-size: 1.9em;
                         @include respond-below(md) {
                             font-size: 1.7em;
+                        }
+                        @include respond-below(sm) {
+                            font-size: 1.6em;
                         }
                         opacity: 0;
                         animation: fadeInLeft 0.5s;
@@ -71,6 +75,8 @@ header {
                             border: 0;
                             border-radius: 0;
                             position: relative;
+                            //box-shadow: $box-shadow;
+                            //border-radius: $border-radius;
                             animation: fadeInBottom 1s;
                             .img-panel {
                                 position: relative;
@@ -79,16 +85,50 @@ header {
                                     bottom: 0;
                                 }
                                 img {         
+                                    //border-radius: $border-radius $border-radius 0 0; 
                                     width: 100%;
                                     height: 100%;
                                     object-fit: cover; 
                                 }
                             }
                             h4 {
+                                position: relative;
                                 text-transform: uppercase;
+                                line-height: 2.5em;
+                                margin-bottom: 1em;
+                            }
+                            h4:after {
+                                position: absolute;
+                                content: "";
+                                height: 4px;
+                                width: 2em;
+                                left: 0;
+                                right: 0;
+                                background-color: $color-tertiary;
+                                bottom: -2px;
+                            }
+                            h3 {
+                                position: relative;
+                                text-transform: uppercase;
+                                line-height: 2.5em;
+                                margin-bottom: 1em;
+                            }
+                            h3:after {
+                                position: absolute;
+                                content: "";
+                                height: 4px;
+                                width: 2em;
+                                left: 0;
+                                right: 0;
+                                background-color: $color-tertiary;
+                                bottom: -2px;
                             }
                             .card-body {
-                                height: 190px;
+                                height: 14em;
+                                //background-color: $color-grey-100;
+                                @include respond-between(md, lg) {
+                                    height: 15em;
+                                }
                             }
                         }
 
@@ -153,7 +193,7 @@ header {
         position: relative;
         padding-left: 0;
         padding-right: 0;
-        height: 20em;
+        height: 35em;
 
         .header-strip {
             background-color: $color-grey-700;
@@ -167,13 +207,13 @@ header {
             font-size: 1.2em;
             z-index: 1;
             h1 {
-                margin-top: 90px;
+                margin-top: 4.8em;
                 text-align: center;
                 color: $color-white;
                 text-transform: uppercase;
             }          
         }
-        .static-header-image {         
+        img {         
             width: 100%;
             height: 100%;
             object-fit: cover; 

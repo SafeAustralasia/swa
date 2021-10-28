@@ -19,7 +19,7 @@
         @include respond-below(md) {
             margin-bottom: 1em;
             &:not(:last-child) {
-                background-color: red;
+                //background-color: red;
             }
         }
     }
