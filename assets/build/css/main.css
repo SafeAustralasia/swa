@@ -2233,8 +2233,71 @@ button {
       .pttn-charity-two-columns .wp-block-column:last-child {
         width: 70% !important; } }
 
-.x {
-  font-size: 1.6rem; }
+.wp-block-calendar #wp-calendar {
+  width: 100%;
+  max-width: 37.5rem;
+  background: #cfd1d2;
+  margin-left: auto;
+  margin-right: auto;
+  caption-side: top; }
+  .wp-block-calendar #wp-calendar caption {
+    background: #1D70A3;
+    color: #fff;
+    padding: 0.25rem;
+    text-align: center; }
+  .wp-block-calendar #wp-calendar thead tr {
+    border-right: 1px solid #cfd1d2; }
+  .wp-block-calendar #wp-calendar thead th {
+    font-size: 90%;
+    font-weight: bold;
+    padding: 0.25rem;
+    background: #cfd1d2;
+    text-transform: uppercase;
+    text-align: center; }
+  .wp-block-calendar #wp-calendar tbody td {
+    position: relative;
+    padding: 0.125rem;
+    text-align: center;
+    border: 1px solid #cfd1d2;
+    background: #fff; }
+    .wp-block-calendar #wp-calendar tbody td.pad {
+      opacity: 0.7; }
+    .wp-block-calendar #wp-calendar tbody td#today {
+      font-weight: bold; }
+      .wp-block-calendar #wp-calendar tbody td#today#today:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 10px solid #101820;
+        border-left: 10px solid transparent; }
+    .wp-block-calendar #wp-calendar tbody td a {
+      display: block;
+      background: rgba(29, 112, 163, 0.2); }
+      .wp-block-calendar #wp-calendar tbody td a:hover {
+        background: #1D70A3;
+        color: #fff; }
+  .wp-block-calendar #wp-calendar tfoot tr {
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #cfd1d2; }
+    .wp-block-calendar #wp-calendar tfoot tr td {
+      border: 0;
+      padding: 0; }
+    .wp-block-calendar #wp-calendar tfoot tr a {
+      display: block;
+      padding: 0.25rem 0.75rem; }
+      .wp-block-calendar #wp-calendar tfoot tr a:hover {
+        background: #fff; }
+    .wp-block-calendar #wp-calendar tfoot tr #prev {
+      text-align: left; }
+    .wp-block-calendar #wp-calendar tfoot tr #next {
+      text-align: right; }
+
+.wp-block-calendar nav {
+  background-color: #fff;
+  display: none; }
 
 .home-text-block-container {
   margin: 1.5em auto;
