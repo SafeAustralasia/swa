@@ -9,7 +9,10 @@
 .pttn-container {
     background-color: $color-grey-50;
     box-shadow: $box-shadow;
-    padding: 1em;
+    padding: 2em;
+    @include respond-below(sm) {
+        padding: 2em 1em;
+    }
     margin-bottom: 1em;
     justify-content: center;
     .wp-block-column {
@@ -33,14 +36,27 @@
     .wp-block-column {
         margin-top: 1em;
         margin-bottom: 1em;
+        &:last-child {
+            margin-top: 2.19em;
+        }
         .img-spacing {
             margin: 1em;
         }
-        // .wp-block-image {
-        //     margin-bottom: 0;
-        // }
-        &:first-child {
-           
+        @include respond-between(sm, md) {
+            &:first-child {
+                align-self: center;
+                width: 2rem !important;
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+            &:last-child {
+                width: 70% !important;
+            }
+        }
+        @include respond-below(sm) {
+            //padding: 20px;
         }
     }
 }

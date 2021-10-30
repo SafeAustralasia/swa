@@ -12,7 +12,7 @@ $site_description = get_bloginfo( 'description' );
 $img[0] = 'iphone.jpg';
 $img[1] = 'industrial.jpg';
 $img[2] = 'fire.jpg';
-$img[3] = 'WorldSafe.jpg';
+$img[3] = 'tornado.jpg';
 $img[4] = 'security-lock.jpg';
 ?>	
 <div class="header-front-page-container overlay-black-400">

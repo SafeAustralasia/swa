@@ -61,6 +61,21 @@ h2:after {
         left: 1em;
     }    
 }
+.widget-sidebar {
+    h2 {
+        line-height: 1.4em;
+    }
+    h2:after {
+        position: absolute;
+        content: "";
+        height: 0;
+        width: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-primary;
+        bottom: 0;
+    }
+}
 .footer-icon-heading:after {
     left: calc(50% - 4em);
 }
