@@ -11,7 +11,7 @@ $header_menus = wp_get_nav_menu_items( $header_menu_id );
 
 $current_page_title = single_post_title( '', false );
 ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-light main-nav nav-set-100">
+<nav class="navbar navbar-expand-lg navbar-light bg-light main-nav nav-set-100 main-nav-top-margin" id="main-nav">
 
   <?php 
     if( function_exists( 'the_custom_logo' ) ) {
@@ -40,7 +40,9 @@ $current_page_title = single_post_title( '', false );
             if( ! $has_children ) :
             ?>
               <li class="nav-item">
-                <a class="nav-link <?php $current_page_title === $menu_item->title ? print 'active' : print '' ; ?>" href="<?php echo esc_url( $menu_item->url ) ?>"><?php echo esc_html( $menu_item->title ) ?></a>
+                <div>
+                  <a class="nav-link <?php $current_page_title === $menu_item->title ? print 'active' : print '' ; ?>" href="<?php echo esc_url( $menu_item->url ) ?>"><?php echo esc_html( $menu_item->title ) ?></a>
+                </div>
               </li>
             <?php 
               else :  
